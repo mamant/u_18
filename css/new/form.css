@@ -182,6 +182,10 @@
     align-self: center;
     overflow: hidden;
 
+    &.is--stickable {
+      margin-top: 30px;
+    }
+
     & .ask-questions {
         text-align: left;
         line-height: 32px;
