@@ -1,0 +1,82 @@
+@import url("//hello.myfonts.net/count/2d3575");
+
+@font-face {
+	font-family: 'LatoRegular';
+	src: url('../fonts/lato/LatoRegular.eot');
+	src: url('../fonts/lato/LatoRegular.eot') format('embedded-opentype'),
+	url('../fonts/lato/LatoRegular.woff2') format('woff2'),
+	url('../fonts/lato/LatoRegular.woff') format('woff'),
+	url('../fonts/lato/LatoRegular.ttf') format('truetype'),
+	url('../fonts/lato/LatoRegular.svg#LatoRegular') format('svg');
+}
+@font-face {
+	font-family: 'LatoBold';
+	src: url('../fonts/lato/LatoBold.eot');
+	src: url('../fonts/lato/LatoBold.eot') format('embedded-opentype'),
+	url('../fonts/lato/LatoBold.woff2') format('woff2'),
+	url('../fonts/lato/LatoBold.woff') format('woff'),
+	url('../fonts/lato/LatoBold.ttf') format('truetype'),
+	url('../fonts/lato/LatoBold.svg#LatoRegular') format('svg');
+}
+
+@font-face {
+	font-family: 'ItcStoneSansMedium';
+	src: url('../../fonts/3026E1_0_0.eot');
+	src: url('../../fonts/3026E1_0_0.eot?#iefix') format('embedded-opentype'),
+	url('../../fonts/3026E1_0_0.woff2') format('woff2'),
+	url('../../fonts/3026E1_0_0.woff') format('woff'),
+	url('../../fonts/3026E1_0_0.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'ItcStoneSansSemiBold';
+	src: url('../../fonts/2D3575_0_0.eot');
+	src: url('../../fonts/2D3575_0_0.eot?#iefix') format('embedded-opentype'),
+	url('../../fonts/2D3575_0_0.woff2') format('woff2'),
+	url('../../fonts/2D3575_0_0.woff') format('woff'),
+	url('../../fonts/2D3575_0_0.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'MyriadRegular';
+	src: url('../../fonts/myriadpro-regular.eot');
+	src: url('../../fonts/myriadpro-regular.eot?#iefix') format('embedded-opentype'),
+	url('../../fonts/myriadpro-regular.ttf') format('truetype'),
+	url('../fonts/MYRIADPRO-REGULAR.svg#AftaserifRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OysterStencilCEERegular';
+	src: url('../../fonts/oysterstencil-cee-webfont.eot');
+	src: url('../../fonts/oysterstencil-cee-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../../fonts/oysterstencil-cee-webfont.woff') format('woff'),
+	url('../../fonts/oysterstencil-cee-webfont.ttf') format('truetype'),
+	url('../../fonts/oysterstencil-cee-webfont.svg#oyster_stencil_ceeregular') format('svg');
+}
+
+@font-face {
+	font-family: 'Arial-Regular';
+	src: url('../../fonts/arial-regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Lato-Black';
+	src: url('../../fonts/Lato-Black.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Lato-BlackItalic';
+	src: url('../../fonts/lato-blackitalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Lato-Hairline.ttf';
+	src: url('../../fonts/lato-hairline.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Lato-Regular.ttf';
+	src: url('../../fonts/Lato-Regular.ttf') format('truetype');
+}

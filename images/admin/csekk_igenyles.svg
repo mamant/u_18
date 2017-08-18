@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="80px" height="40px" viewBox="0 0 80 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>csekk igénylés</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Uniqa---ügyintézés-D-Copy" transform="translate(-657.000000, -588.000000)" fill="#FFFFFF">
+            <g id="2" transform="translate(63.000000, 572.000000)">
+                <g id="csekk-igénylés" transform="translate(594.000000, 16.000000)">
+                    <path d="M2.5,12.5 L26.25,12.5 L26.25,10 L2.5,10 L2.5,12.5 Z M2.5,17.5 L26.25,17.5 L26.25,15 L2.5,15 L2.5,17.5 Z M2.5,22.5 L26.25,22.5 L26.25,20 L2.5,20 L2.5,22.5 Z M5.816,0 L5,0 L3.75,0 C0,0 0,3.75 0,3.75 L0,36.25 C0,36.25 0,40 3.75,40 L5,40 L5.816,40 L28.75,40 L28.75,0 L5.816,0 Z" id="Fill-1"></path>
+                    <path d="M33.75,12.5 L63.75,12.5 L63.75,10 L33.75,10 L33.75,12.5 Z M33.75,17.5 L63.75,17.5 L63.75,15 L33.75,15 L33.75,17.5 Z M33.75,22.5 L63.75,22.5 L63.75,20 L33.75,20 L33.75,22.5 Z M76.25,0 L31.25,0 L31.25,40 L74.184,40 L75,40 L76.25,40 C80,40 80,36.25 80,36.25 L80,5.816 L80,5 L80,3.75 C80,0 76.25,0 76.25,0 L76.25,0 Z" id="Fill-3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,503 @@
+.u-fields {
+    margin-bottom: 20px;
+}
+
+.u-fields__separator {
+    text-align: center;
+    color: #808080;
+    position: relative;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.u-fields__separator span {
+    display: inline-block;
+    padding: 0 6px;
+    background-color: #fff;
+    position: relative;
+}
+
+.u-fields__separator:before {
+    position: absolute;
+    content: '';
+    height: 1px;
+    background-color: currentColor;
+    width: 100%;
+    top: 10px;
+    left: 0;
+}
+
+.u-label {
+    line-height: 32px
+
+}
+
+.u-label em {
+    color: #ec1717;
+    font-size: 18px;
+    line-height: 2px;
+}
+
+.u-label-line {
+    float: none;
+    text-align: left;
+    line-height: 14px;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+
+.u-field-state {
+    position: relative;
+    margin-top: 7px;
+}
+
+
+.u-field-state [class *='icon-'] {
+    position: absolute;
+}
+
+.u-select {
+    width: 100%;
+    height: 34px;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #e1e1e1;
+    color: #282B34;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.u-input, .u-textarea {
+    width: 100%;
+    height: 34px;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #e1e1e1;
+    color: #282B34;
+    box-sizing: border-box;
+    padding: 0 10px
+}
+
+.u-input[disabled] {
+    opacity: .5;
+    cursor: default;
+    background: #eee;
+}
+
+.u-input:focus, .u-textarea:focus {
+    border: 1px solid #7fadd4;
+    box-shadow: 0 0 5px rgba(127, 173, 212, .5);
+}
+
+.u-input.error, .u-input.error:focus, .u-textarea.error, .u-textarea.error:focus {
+    outline: none;
+    border: 1px solid #be001e;
+}
+
+/*Validation*/
+.u-error .u-input, .u-error .u-input:focus {
+  outline: none;
+  border: 1px solid #be001e;
+}
+
+.u-input + .error, .u-textarea + .error {
+  margin-top: 4px;
+  color: #be001e;
+  height: auto;
+}
+
+.u-btn {
+    display: inline-block;
+    box-sizing: border-box;
+    color: #fff;
+    line-height: 34px;
+    padding: 0 15px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0.8px;
+    letter-spacing: 0.05rem
+}
+
+.u-btn[disabled] {
+    opacity: .5;
+    cursor: default;
+}
+
+.u-btn.primary {
+    background: #00ba6f;
+    color: #fff;
+    font-style: normal;
+}
+
+.u-btn.primary:hover {
+    background: #03a765;
+}
+
+.u-btn.secondary {
+    background: #878a89;
+    color: #fff;
+    font-style: normal;
+}
+
+.u-btn.secondary:hover {
+    background: #767877;
+}
+
+.u-btn.delete {
+    color: #fff;
+    background: #f94848;
+}
+
+.u-btn.delete:hover {
+    background: #dc3e3e;
+}
+
+.u-btn.big, .u-btn.is--big {
+    line-height: 40px;
+    padding: 0 20px;
+    font-size: 19.2px;
+    font-size: 1.2rem;
+}
+
+.u-btn.is--large {
+    line-height: 52px;
+    padding: 0 30px;
+    font-size: 24px;
+    font-size: 1.5rem;
+}
+
+.u-btn.small {
+    font-size: 14.4px;
+    font-size: .9rem;
+    padding: 0 10px;
+    line-height: 24px;
+}
+
+.u-submit-row {
+    background: #f4f4f4;
+    padding: 15px;
+    text-align: right;
+    margin: 80px 0;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    overflow: hidden;
+}
+
+.u-submit-row .back-btn {
+    float: left;
+}
+
+.u-submit-row .ask-questions {
+    text-align: left;
+    line-height: 32px;
+}
+
+.u-submit-row .ask-questions .u-btn {
+    margin-right: 10px;
+}
+
+input[type=checkbox].chb-custom {
+    position: absolute;
+    left: -9999px
+}
+
+input[type=checkbox].chb-custom + .chb-label {
+    height: 20px;
+    display: inline-block;
+    line-height: 22px;
+    cursor: pointer;
+    position: relative;
+    padding-left: 30px;
+    transition: content 1s;
+}
+
+input[type=checkbox].chb-custom + .chb-label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: #fff;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+input[type=checkbox].chb-custom:checked + .chb-label {}
+
+input[type=checkbox].chb-custom:checked + .chb-label:before {
+    border-color: #757584;
+    background: #eee;
+    content: '\2714';
+}
+
+input[type="radio"].u-radio {
+    position: absolute;
+    left: -9999px
+
+}
+
+input[type="radio"].u-radio + label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 30px;
+    line-height: 32px;
+    transition: content 1s;
+    margin-right: 20px;
+}
+
+input[type="radio"].u-radio + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 6px;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 100%;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 20px;
+}
+
+input[type="radio"].u-radio:checked + label {}
+
+input[type="radio"].u-radio:checked + label:after {
+    content: '';
+    position: absolute;
+    background: #000;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    top: 12px;
+    left: 4px;
+}
+
+.u-textarea {
+    text-align: left;
+    min-height: 100px;
+    line-height: 22.4px;
+    line-height: 1.4rem;
+    padding-top: 10px;
+    resize: none;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+    max-width: 80%;
+    font-size: 20px;
+    font-size: 1.25rem;
+    /* 20px */
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
+    line-height: 26px;
+    height:44px;
+    /* 10px 20px */
+}
+
+.no-js .inputfile + label {
+    display: none;
+}
+
+.inputfile:focus + label, .inputfile.has-focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.inputfile + label * {
+    /* pointer-events: none; */
+    /* in case of FastClick lib use */
+}
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    /* 4px */
+    margin-right: 0.25em;
+    /* 4px */
+}
+
+
+.inputfile-6 + label {
+    color: #333;
+}
+
+.inputfile-6 + label {
+    border: 1px solid #e1e1e1;
+    background-color: #fff;
+    padding: 0;
+}
+
+.inputfile-6:focus + label, .inputfile-6.has-focus + label, .inputfile-6 + label:hover {
+    border-color: #9a9a9a;
+}
+
+.inputfile-6 + label span, .inputfile-6 + label strong {
+    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
+    /* 10px 20px */
+}
+
+.inputfile-6 + label span {
+    width: 200px;
+    min-height: 2em;
+    line-height: 28px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: top;
+    text-align: left;
+}
+
+.inputfile-6 + label strong {
+    height: 100%;
+    color: #fff;
+    background-color: #00ba6f;
+    display: inline-block;
+}
+
+.inputfile-6:focus + label strong, .inputfile-6.has-focus + label strong, .inputfile-6 + label:hover strong {
+    background-color: #03a765;
+}
+
+
+/* style for image upload */
+
+.inputfile-5 + label {
+    color: #d3394c;
+    padding: 0;
+    height: 100px;
+    width: 80px;
+    max-width: 100%;
+}
+
+.inputfile-5:focus + label, .inputfile-5.has-focus + label, .inputfile-5 + label:hover {
+    color: #722040;
+}
+
+.inputfile-5 + label figure {
+    width: 80px;
+    height: 100px;
+    background-color: #999;
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+    margin: 0 auto 10px;
+    box-sizing: border-box;
+}
+
+.inputfile-5:focus + label figure, .inputfile-5.has-focus + label figure, .inputfile-5 + label:hover figure {
+    background-color: #7fadd4;
+}
+
+.inputfile-5 + label figure::before, .inputfile-5 + label figure::after {
+    width: 0;
+    height: 0;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.inputfile-5 + label figure::before {
+    border-top: 20px solid #eee;
+    border-left: 20px solid transparent;
+}
+
+.inputfile-5 + label figure::after {
+    border-bottom: 20px solid #666;
+    border-right: 20px solid transparent;
+}
+
+.inputfile-5:focus + label figure::after, .inputfile-5.has-focus + label figure::after, .inputfile-5 + label:hover figure::after {
+    border-bottom-color: #cadcea;
+}
+
+.inputfile-5 + label svg {
+    width: 50%;
+    height: 50%;
+    fill: #fff;
+}
+
+.image-upload-deck {
+  position: relative;
+  text-align: center
+}
+
+.image-upload-deck__text {
+    text-align: center;
+    color: #666;
+    width: 80px;
+    display: block;
+    padding-top: 4px;
+}
+
+.image-upload-deck .image-upload {
+    display: inline-block;
+    position: absolute;
+    right: -10px;
+}
+
+.space-between {
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 50em) {
+    .inputfile-6 + label strong {
+        display: block;
+    }
+}
+
+
+/*Fix old design isses*/
+@media only screen and (max-width: 1024px) and (min-width: 320px) {
+    .u-btn {
+        position: static;
+        right: 0;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+  .image-upload-deck {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    margin-bottom: 15px;
+  }
+
+  .image-upload-deck .image-upload {
+    position: relative;
+    right: 0;
+  }
+
+}

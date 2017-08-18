@@ -1,0 +1,13 @@
+<div class="my-uniqa-submenu">
+    <ul>
+        <li><a href="index.html" {% if params.currentPage === 'index' %} class="current" {% endif %} >Моя UNIQA</a></li>
+        <li><a href="my-claims.html" {% if params.currentPage === 'claims' %} class="current" {% endif %}>Договори</a></li>
+        <li><a href="my-insurances.html" {% if params.currentPage === 'insurances' %} class="current" {% endif %}>Страхові випадки</a></li>
+        <li><a href="my-personal-details.html" {% if params.currentPage === 'personal' %} class="current" {% endif %}>Персональні дані</a></li>
+        <li><a href="my-inbox.html"  {% if params.currentPage === 'inbox' %} class="current" {% endif %} class="inbox-item">
+            Повідомлення
+            <span class="counter green">1</span>
+            <span class="counter blue">2</span></a>
+        </li>
+    </ul>
+</div>

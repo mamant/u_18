@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Страхова компанія УНІКА - Страхування в Україні | УНІКА</title>
+    <link rel="stylesheet" href="./css/uniqa.min.css">
+    {% include "components/scripts-header.njk" %}
+
+</head>
+<body>
+    {% set params = {
+        'currentPage': 'personal'
+    } %}
+    {% include "components/header.njk" %}
+
+    <div class="container">
+        <ul class="breadcrums">
+            <li><a class="normal" href="index.html">Головна</a></li>
+            <li>»</li>
+            <li>Персональнi даннi</li>
+        </ul>
+        <div class="my-uniqa-title">
+            <h1>Персональнi даннi</h1>
+        </div>
+        {% include "components/menu.njk" %}
+        <div class="flx-row">
+            <div class="column small-12 medium-8 large-9">
+                <form class="validate-form" action="" name="personal-data">
+                <p class="section-descr">Заповнена Вами інформація буде автоматично використовуватись при оформлені договорів</p>
+                <div class="u-fields__separator"><span>Особиста інформація</span></div>
+                <div class="u-fields flx-row">
+                    <label for="surname" class="column small-10 medium-3 u-label xs-text-align-right">Прізвище</label>
+                    <div class="column small-10 medium-7 large-6">
+                        <input type="text" class="u-input" name="surname" id="surname" required>
+                    </div>
+                    <div class="column shrink u-field-state"><em class="icon icon-state-def"></em></div>
+                    <div class="column small-12  medium-12 large-2 image-upload-deck">
+                      <div class="image-upload">
+                        <input type="file" name="file-6[]" id="file-6" class="inputfile inputfile-5 ignore" data-multiple-caption="{count} files selected" multiple="">
+                        <label for="file-6"><figure><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"></path></svg></figure> <span></span></label>
+                        <div class="image-upload-deck__text">Фото</div>
+                      </div>
+                    </div>
+                </div>
+                <div class="u-fields flx-row">
+                    <label for="name" class="column small-10 medium-3 u-label xs-text-align-right">Ім'я</label>
+                    <div class="column small-10 medium-7 large-6">
+                        <input type="text" class="u-input" name="name" id="name" required>
+                    </div>
+                    <div class="column shrink u-field-state"><em class="icon icon-state-def"></em></div>
+                </div>
+                <div class="u-fields flx-row">
+                    <label for="patronymic" class="column small-10 medium-3 u-label xs-text-align-right">По батькові</label>
+                    <div class="column small-10 medium-7 large-6">
+                        <input type="text" class="u-input ignore" name="patronymic" id="patronymic">
+                    </div>
+                    <div class="column shrink u-field-state"><em class="icon icon-state-def"></em></div>
+                </div>
+                <div class="u-fields flx-row">
+                    <label for="inn" class="column small-10 medium-3 u-label xs-text-align-right">Інн</label>
+                    <div class="column small-10 medium-7 large-6">
+                        <input type="text" class="u-input ignore" name="inn" id="inn">
+                    </div>
+                    <div class="column shrink u-field-state"><em class="icon icon-state-def"></em></div>
+                </div>
+                <div class="u-fields flx-row">
+                    <label for="birthday" class="column small-10 medium-3 u-label xs-text-align-right">Дата народження</label>
+                    <div class="column small-10 medium-7 large-3">
+                        <input type="text" class="u-input ignore datepicker" name="birthday" id="birthday">
+                    </div>
+                    <div class="column shrink u-field-state"><em class="icon icon-state-def"></em></div>
+                </div>
+                <div class="u-fields flx-row">
+                    <label for="phone" class="column small-10 medium-3 u-label xs-text-align-right">Телефон</label>
+                    <div class="column small-10 medium-4 large-3">
+                        <input type="text" class="u-input phone-mask ignore" name="phone" id="phone">
+                    </div>
+                    <div class="column shrink u-field-state"><em class="icon icon-state-def"></em></div>
+                </div>
+                <div class="u-fields flx-row">
+                    <label for="email" class="column small-10 medium-3 u-label xs-text-align-right">Email</label>
+                    <div class="column small-10 medium-7 large-6">
+                        <input type="email" class="u-input ignore" name="email" id="email">
+                    </div>
+                    <div class="column shrink u-field-state"><em class="icon icon-state-def"></em></div>
+                </div>
+
+                <div class="u-fields__separator"><span>Паспортнi даннi</span></div>
+                <div class="u-fields flx-row">
+                    <label for="documentType" class="column small-10 medium-3 u-label xs-text-align-right">Тип документу</label>
+                    <div class="column small-10 medium-7 large-6">
+                        <select class="u-select ignore" name="documentType" id="documentType">
+                            <option value="1">Паспорт громадянина україни у вагляді ID картки</option>
+                        </select>
+                    </div>
+                    <div class="column shrink u-field-state"><em class="icon icon-state-def"></em></div>
+                </div>
+                <div class="u-fields flx-row">
+                    <label for="passportDate" class="column small-10 medium-3 u-label xs-text-align-right">Дата видачі паспорту</label>
+                    <div class="column small-10 medium-4 large-3">
+                        <input type="text" class="u-input ignore datepicker" name="passportDate" id="passportDate">
+                    </div>
+                    <div class="column shrink u-field-state"><em class="icon icon-state-def"></em></div>
+                </div>
+                <div class="u-fields flx-row">
+                    <label for="passportCompany" class="column small-10 medium-3 u-label xs-text-align-right">Виданий</label>
+                    <div class="column small-10 medium-7 large-6">
+                        <input type="text" class="u-input ignore" name="passportCompany" id="passportCompany">
+                    </div>
+                    <div class="column shrink u-field-state"><em class="icon icon-state-def"></em></div>
+                </div>
+                <div class="u-fields flx-row">
+                    <label for="passportSurname" class="column small-10 medium-3 u-label xs-text-align-right">Призвіще латиницею</label>
+                    <div class="column small-10 medium-7 large-6">
+                        <input type="text" class="u-input ignore" name="passportSurname" id="passportSurname">
+                    </div>
+                    <div class="column shrink u-field-state"><em class="icon icon-state-def"></em></div>
+                </div>
+                <div class="u-fields flx-row">
+                    <label for="passportName" class="column small-10 medium-3 u-label xs-text-align-right">Ім'я латиницею</label>
+                    <div class="column small-10 medium-7 large-6">
+                        <input type="text" class="u-input ignore" name="passportName" id="passportName">
+                    </div>
+                    <div class="column shrink u-field-state"><em class="icon icon-state-def"></em></div>
+                </div>
+                <div class="u-fields flx-row">
+                    <label for="passportSerriesFirst" class="column small-10 medium-3 u-label xs-text-align-right">Серія закордонного паспорту</label>
+                    <div class="column small-3 medium-2 large-1">
+                        <input type="text" class="u-input ignore" name="passportSerriesFirst" id="passportSerriesFirst">
+                    </div>
+                    <div class="column small-7 medium-5 large-2">
+                        <input type="text" class="u-input ignore" name="passportSerriesSecond" id="passportSerriesSecond">
+                    </div>
+                    <div class="column shrink u-field-state"><em class="icon icon-state-def"></em></div>
+                </div>
+
+                <div class="u-fields__separator"><span>Адреса реєстрації</span></div>
+                <div class="u-fields flx-row">
+                    <label for="locationRegion" class="column small-10 medium-3 u-label xs-text-align-right">Область</label>
+                    <div class="column small-10 medium-7 large-6">
+                        <select class="u-select ignore" name="locationRegion" id="locationRegion">
+                            <option value="1">--</option>
+                        </select>
+                    </div>
+                    <div class="column shrink u-field-state"><em class="icon icon-state-def"></em></div>
+                </div>
+                <div class="u-fields flx-row">
+                    <label for="locationСityRegion" class="column small-10 medium-3 u-label xs-text-align-right">Район/Місто</label>
+                    <div class="column small-10 medium-7 large-6">
+                        <select class="u-select ignore" name="locationСityRegion" id="locationСityRegion">
+                            <option value="1">--</option>
+                        </select>
+                    </div>
+                    <div class="column shrink u-field-state"><em class="icon icon-state-def"></em></div>
+                </div>
+                <div class="u-fields flx-row">
+                    <label for="locationCity" class="column small-10 medium-3 u-label xs-text-align-right">Населений пункт</label>
+                    <div class="column small-10 medium-7 large-6">
+                        <select class="u-select ignore" name="locationCity" id="locationCity">
+                            <option value="1">--</option>
+                        </select>
+                    </div>
+                    <div class="column shrink u-field-state"><em class="icon icon-state-def"></em></div>
+                </div>
+                <div class="u-fields flx-row">
+                    <label for="locationIndex" class="column small-10 medium-3 u-label xs-text-align-right">Індекс</label>
+                    <div class="column small-10 medium-7 large-6">
+                        <select class="u-select ignore" name="locationIndex" id="locationIndex">
+                            <option value="1">--</option>
+                        </select>
+                    </div>
+                    <div class="column shrink u-field-state"><em class="icon icon-state-def"></em></div>
+                </div>
+                <div class="u-fields flx-row">
+                    <label for="locationAddress" class="column small-10 medium-3 u-label xs-text-align-right">Вулиця, будинок, квартира</label>
+                    <div class="column small-10 medium-7 large-6">
+                        <input type="text" class="u-input ignore" name="locationAddress" id="locationAddress">
+                    </div>
+                    <div class="column shrink u-field-state"><em class="icon icon-state-def"></em></div>
+                </div>
+                <div class="u-submit-row">
+                    <button type="submit" class="u-btn primary">Зберегти</button>
+                </div>
+                </form>
+            </div>
+            <div class="column small-12 medium-4 large-3">
+                {% include "components/agent.njk" %}
+            </div>
+        </div>
+    </div>
+
+    {% include "components/footer.njk" %}
+    {% include "components/scripts-footer.njk" %}
+</body>
+</html>

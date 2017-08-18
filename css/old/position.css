@@ -1,0 +1,1139 @@
+/*----------------------------------*/
+/*----------- All Icons ------------*/
+/*----------------------------------*/
+
+.size35.left-margin{
+	padding-left:35px;
+}
+
+
+i.bk_icons{
+	background-image: url('../images/icon_sprite_re.png');
+	background-repeat: no-repeat;
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+
+.size35.download{
+	background-position:-1310px -167px;
+	z-index: 5;
+	top: 1px;
+}
+
+.size35.pdf{
+	background-position:-1343px -168px;
+	z-index: 5;
+}
+
+.size35.custommer-serv{
+	background-position:-1374px -168px;
+	z-index: 5;
+}
+
+.size35.custommer-serv{
+	background-position:-1374px -168px;
+	z-index: 5;
+}
+
+.size35.logo-brand{
+	background-position:-1308px -216px;
+	z-index: 5;
+}
+
+.size35.hours{
+	background-position:-769px -130px;
+	z-index: 5;
+}
+
+.size35.cardul-tau{
+	background-position:-1345px -213px;
+	z-index: 5;
+}
+
+.size35.t-shirt{
+	background-position:-12px -250px;
+	z-index: 5;
+}
+
+.size35.our-partners{
+	background-position: -66px -251px;
+	z-index: 5;
+}
+
+.size35.cariere{
+	background-position: -121px -251px;
+	z-index: 5;
+}
+
+.size35.relatii-cu-investitori{
+	background-position: -175px -250px;
+	z-index: 5;
+}
+
+.size35.termeni-conditii{
+	background-position: -229px -252px;
+	z-index: 5;
+}
+
+.size35.presa{
+	background-position: -324px -254px;
+	z-index: 5;
+}
+
+.size35.daune{
+	background-position: -324px -254px;
+	z-index: 5;
+}
+
+.size35.map-uniqa{
+	background-position: -529px -253px;
+	z-index: 5;
+}
+
+.size35.mobil{
+	background-position: -414px -253px;
+	z-index: 5;
+}
+
+.size60.passenger_accident{
+	background-position: -1243px -277px;
+	z-index: 5;
+}
+
+
+/*----- End of white ------*/
+
+
+.earthqauke-black{
+	background-position:  -3px -53px;
+	z-index: 5;
+}
+
+.earthqauke-blue{
+	background-position: -340px -132px;
+	z-index: 5;
+}
+/*---------*/
+
+.content-black{
+	background-position: -54px -14px;
+	z-index: 5;
+}
+
+.content-blue{
+	background-position: -53px -55px;
+	z-index: 5;
+}
+/*---------*/
+
+.bussiness-interruption-blue{
+	background-position: -100px -56px;
+	z-index: 5;
+}
+
+.bussiness-interruption-black{
+	background-position:  -100px -22px;
+	z-index: 5;
+}
+
+/*---------*/
+
+.machinery-breackdown-blue{
+	background-position: -144px -53px;
+	z-index: 5;
+}
+
+.machinery-breackdown-black{
+	background-position: -142px -12px;
+	z-index: 5;
+}
+
+/*---------*/
+
+.legal-liability-blue{
+	background-position: -191px -54px;
+	z-index: 5;
+}
+
+.legal-liability-black{
+	background-position: -190px -12px;
+	z-index: 5;
+}
+
+/*---------*/
+
+.carrier-insurance-blue{
+	background-position: -232px -58px;
+	z-index: 5;
+}
+
+.carrier-insurance-black{
+	background-position: -230px -12px;
+	z-index: 5;
+}
+
+/*---------*/
+
+.product-liability-blue{
+	background-position: -278px -54px;
+	z-index: 5;
+}
+
+.product-liability-black{
+	background-position: -277px -10px;
+	z-index: 5;
+}
+
+/*---------*/
+
+.medical-malpraxis-black{
+	background-position: -312px -18px;
+	z-index: 5;
+}
+
+.medical-malpraxis-blue{
+	background-position: -314px -59px;
+	z-index: 5;
+}
+
+/*---------*/
+
+.professional-indemnity-black{
+	background-position: -356px -10px;
+	z-index: 5;
+}
+
+.professional-indemnity-blue{
+	background-position: -361px -52px;
+	z-index: 5;
+	margin-left:-5px;
+}
+
+/*---------*/
+.paharmacist-malpraxis-black{
+	background-position: -356px -10px;
+	z-index: 5;
+}
+
+.paharmacist-malpraxis-blue{
+	background-position: -361px -52px;
+	z-index: 5;
+}
+
+/*---------*/
+
+.professional-pharmacist-black{
+	background-position: -312px -18px;
+	z-index: 5;
+}
+
+.professional-pharmacist-blue{
+	background-position: -314px -59px;
+	z-index: 5;
+}
+
+.pharmacist-blue{
+	background-position: -361px -52px;
+	z-index: 5;
+}
+
+.pharmacist-black{
+	background-position: -356px -10px;
+	z-index: 5;
+}
+
+
+
+/*---------*/
+
+.death-any-cause-black{
+	background-position: -924px -15px;
+	z-index: 5;
+}
+
+.death-any-cause-blue{
+	background-position: -924px -57px;
+	z-index: 5;
+}
+
+/*---------*/
+
+.permanently-disability-black{
+	background-position: -497px -9px;
+	z-index: 5;
+}
+
+.permanently-disability-blue{
+	background-position: -498px -53px;
+	z-index: 5;
+}
+
+/*---------*/
+
+.hospitalization-any-cause-black{
+	background-position: -540px -9px;
+	z-index: 5;
+}
+
+.hospitalization-any-cause-blue{
+	background-position: -541px -55px;
+	z-index: 5;
+}
+
+/*---------*/
+
+.surgery-any-cause-black{
+	background-position: -589px -9px;
+	z-index: 5;
+}
+
+.surgery-any-cause-blue{
+	background-position: -589px -54px;
+	z-index: 5;
+}
+
+/*---------*/
+
+.medical-expense-black{
+	background-position: -688px -9px;
+	z-index: 5;
+}
+
+.medical-expense-blue{
+	background-position: -689px -54px;
+	z-index: 5;
+}
+
+.home-treatement-black{
+	background-position:-777px -9px;
+	z-index: 5;
+}
+
+.home-treatement-blue{
+	background-position:-779px -60px;
+	z-index: 5;
+}
+
+
+
+/*---------*/
+
+.home-treatement-black{
+	background-position: -777px -9px;
+	z-index: 5;
+}
+
+.home-treatement-blue{
+	background-position: -777px -9px;
+	z-index: 5;
+}
+
+/*---------*/
+
+.dental-treatement-black{
+	background-position: -882px -10px;
+	z-index: 5;
+}
+
+.dental-treatement-blue{
+	background-position: -883px -57px;
+	z-index: 5;
+}
+
+/*---------*/
+
+.medical-transport-black{
+	background-position: -824px -11px;
+	z-index: 5;
+}
+
+.medical-transport-blue{
+	background-position: -827px -58px;
+	z-index: 5;
+	margin-left:-6px;
+}
+
+/*---------*/
+
+.medical-transport-black{
+	background-position: -824px -11px;
+	z-index: 5;
+}
+
+.medical-transport-blue{
+	background-position: -826px -60px;
+	z-index: 5;
+}
+
+/*---------*/
+
+.landing-sliding-black{
+	background-position: -385px -103px;
+	z-index: 5;
+}
+
+.landing-sliding-blue{
+	background-position: -385px -133px;
+	z-index: 5;
+}
+
+/*---------*/
+
+.flood-black{
+	background-position: -430px -101px;
+	z-index: 5;
+}
+
+.flood-blue{
+	background-position: -430px -131px;
+	z-index: 5;
+}
+
+/*---------*/
+
+.fire-black{
+	background-position: -474px -102px;
+	z-index: 5;
+}
+
+.fire-blue{
+	background-position: -474px -132px;
+	z-index: 5;
+}
+
+/*---------*/
+
+.lightening-black{
+	background-position: -520px -100px;
+	z-index: 5;
+}
+
+.lightening-blue{
+	background-position: -520px -130px;
+	z-index: 5;
+}
+
+/*---------*/
+
+.explosion-black{
+	background-position: -557px -101px;
+	z-index: 5;
+}
+
+.explosion-blue{
+	background-position: -557px -131px;
+	z-index: 5;
+}
+
+/*---------*/
+
+.failing-object-black{
+	background-position: -598px -101px;
+	z-index: 5;
+}
+
+.failing-object-blue{
+	background-position:  -598px -131px;
+	z-index: 5;
+}
+
+/*---------*/
+
+.storm-black{
+	background-position: -647px -100px;
+	z-index: 5;
+}
+
+.storm-blue{
+	background-position:  -647px -130px;
+	width: 16px;
+	height: 23px;
+}
+
+/*---------*/
+
+.collision-vehicle-black{
+	background-position: -684px -95px;
+	z-index: 5;
+}
+
+.collision-vehicle-blue{
+	background-position:  -684px -131px;
+	z-index: 5;
+}
+
+/*---------*/
+
+.belogings-black{
+	background-position: -684px -95px;
+	z-index: 5;
+}
+
+.belogings-blue{
+	background-position: -733px -130px;
+	z-index: 5;
+}
+
+
+.natural-events-black{
+	background-position: -949px -93px;
+	z-index: 5;
+}
+
+.natural-events-blue{
+	background-position: -949px -129px;
+	z-index: 5;
+}
+
+/*---------*/
+
+.impact-collision-black{
+	background-position: -997px -92px;
+	z-index: 5;
+}
+
+.impact-collision-blue{
+	background-position: -997px -128px;
+	z-index: 5;
+}
+
+
+/*---------*/
+
+.hospitalization-cost-black{
+	background-position: -281px -94px;
+	z-index: 5;
+	margin-left: -6px;
+}
+
+.hospitalization-cost-blue{
+	background-position: -281px -130px;
+	z-index: 5;
+	margin-left: -6px;
+}
+
+/*---------*/
+
+.aditional-cost-black{
+	background-position: -1178px -101px;
+	z-index: 5;
+}
+
+.aditional-cost-blue{
+	background-position: -1178px -131px;
+	z-index: 5;
+}
+
+
+.personal-injury-black{
+	background-position: -1276px -102px;
+	z-index: 5;
+}
+
+.personal-injury-blue{
+	background-position: -1276px -132px;
+	z-index: 5;
+}
+
+/*---------*/
+
+.travel-insurance-blue{
+	background-position: -15px -217px;
+	z-index: 5;
+}
+
+.travel-insurance-black{
+	background-position: -1px -164px;
+	z-index: 5;
+}
+
+.travel-insurance-white_bk{
+	background-position: -13px -303px;
+	z-index: 5;
+}
+
+.travel-insurance-white{
+	background-position: -10px -300px;
+	z-index: 5;
+}
+
+
+.fractures-black{
+	background-position: -140px -93px;
+	z-index: 5;
+}
+
+.fractures-blue{
+	background-position: -140px -129px;
+	z-index: 5;
+}
+
+
+
+.vandalism-black{
+	background-position: -1360px -96px;
+	z-index: 5;
+}
+
+.vandalism-blue{
+	background-position: -1360px -132px;
+	z-index: 5;
+}
+
+
+.size35.vandalism-black{
+	background-position: -1360px -96px;
+	z-index: 5;
+}
+
+.vandalism-blue{
+	background-position: -1360px -132px;
+	z-index: 5;
+}
+
+/*--------------------*/
+.size60.life-insurance-black{
+	background-position: -54px -159px;
+	z-index: 5;
+}
+
+.size35.life-insurance-black{
+	background-position: -67px -174px;
+	z-index: 5;
+}
+
+.size35.life-insurance-blue{
+	background-position: -69px -213px;
+	z-index: 5;
+}
+
+.size35.life-insurance-white_bk{
+	background-position: -67px -299px;
+	z-index: 5;
+}
+
+.size35.life-insurance-white{
+	background-position: -55px -298px;
+	z-index: 5;
+}
+
+/*--------------------*/
+
+.size60.ablebensversiche-black{
+	background-position: -110px -159px;
+	z-index: 5;
+}
+
+.size35.ablebensversiche-black{
+	background-position: -122px -172px;
+	z-index: 5;
+}
+
+.size35.ablebensversiche-blue{
+	background-position: -124px -211px;
+	z-index: 5;
+}
+
+.size35.ablebensversiche-white_bk{
+	background-position: -122px -297px;
+	z-index: 5;
+}
+
+.size35.ablebensversiche-white{
+	background-position: -103px -297px;
+	z-index: 5;
+}
+
+
+
+
+
+/*--------------------*/
+
+
+.size35.csr-black{
+	background-position: -1378px 0;
+	z-index: 5;
+}
+
+.size35.csr-blue{
+	background-position: -1377px -53px;
+	z-index: 5;
+}
+
+.size35.csr-white_bk{
+	background-position: -1260px -296px;
+	z-index: 5;
+}
+
+.size35.csr-white{
+	background-position: -1083px -299px;
+	z-index: 5;
+}
+
+
+/*-----------------*/
+
+.size60.haftpflicht-black{
+	background-position: -218px -162px;
+	z-index: 5;
+}
+
+.size35.haftpflicht-black{
+	background-position: -229px -176px;
+	z-index: 5;
+}
+
+.size35.haftpflicht-blue{
+	background-position: -231px -215px;
+	z-index: 5;
+}
+
+.size35.haftpflicht-white_bk{
+	background-position: -229px -301px;
+	z-index: 5;
+}
+
+.size35.haftpflicht-white{
+	background-position: -195px -299px;
+	z-index: 5;
+}
+
+.size60.casco-black{
+	background-position: -1131px -279px;
+	z-index: 5;
+}
+
+.size35.casco-white{
+	background-position: -150px -302px;
+	z-index: 5;
+}
+
+
+/*-----------------*/
+
+.size60.accident-insurance-black{
+	background-position: -265px -161px;
+	z-index: 5;
+}
+
+
+.size35.accident-insurance-black{
+	background-position: -284px -174px;
+	z-index: 5;
+}
+
+.size35.accident-insurance-blue{
+	background-position: -286px -213px;
+	z-index: 5;
+}
+
+.size35.accident-insurance-white_bk{
+	background-position: -284px -299px;
+	z-index: 5;
+}
+
+.size35.accident-insurance-white{
+	background-position: -237px -299px;
+	z-index: 5;
+}
+
+/*-----------------*/
+
+.size35.legal-expense-black{
+	background-position: -334px -176px;
+	z-index: 5;
+}
+
+.size35.legal-expense-blue{
+	background-position: -336px -215px;
+	z-index: 5;
+}
+
+.size35.legal-expense-white_bk{
+	background-position: -288px -303px;
+	z-index: 5;
+}
+
+.size35.legal-expense-white{
+	background-position: -334px -301px;
+	z-index: 5;
+}
+/*-----------------*/
+
+.size35.legal-dental-black{
+	background-position:  -377px -176px;
+	z-index: 5;
+}
+
+.size35.legal-dental-blue{
+	background-position: -379px -215px;
+	z-index: 5;
+}
+
+.size35.legal-dental-white_bk{
+	background-position: -377px -301px;
+	z-index: 5;
+}
+
+.size35.legal-dental-white{
+	background-position: -325px -303px;
+	z-index: 5;
+}
+
+/*-----------------*/
+
+.size60.staatliche-black{
+	background-position: -404px -162px;
+	z-index: 5;
+}
+
+.size35.staatliche-black{
+	background-position: -416px -174px;
+	z-index: 5;
+}
+
+.size35.staatliche-blue{
+	background-position: -418px -213px;
+	z-index: 5;
+}
+
+.size35.staatliche-white_bk{
+	background-position: -416px -299px;
+	z-index: 5;
+}
+
+.size35.staatliche-white{
+	background-position: -354px -298px;
+	z-index: 5;
+}
+
+
+.size35.careers-black{
+	background-position: -1189px -8px;
+	z-index: 5;
+}
+
+.size35.careers-blue{
+	background-position: -1190px -57px;
+	z-index: 5;
+}
+
+
+
+
+/*-----------------*/
+
+.size60.health-plus-black{
+	background-position: -517px -159px;
+	z-index: 5;
+}
+
+.size35.health-plus-black{
+	background-position: -530px -172px;
+	z-index: 5;
+}
+
+.size35.health-plus-blue{
+	background-position: -532px -211px;
+	z-index: 5;
+}
+
+.size35.health-plus-white_bk{
+	background-position: -530px -297px;
+	z-index: 5;
+}
+
+.size35.health-plus-white{
+	background-position: -451px -296px;
+	z-index: 5;
+}
+
+/*-----------------*/
+
+.size60.haushalts-plus-black{
+	background-position: -455px -161px;
+	z-index: 5;
+}
+
+
+.size35.haushalts-plus-black{
+	background-position: -468px -172px;
+	z-index: 5;
+}
+
+.size35.haushalts-plus-blue{
+	background-position: -470px -211px;
+	z-index: 5;
+}
+
+.size35.haushalts-plus-white_bk{
+	background-position: -468px -297px;
+	z-index: 5;
+}
+
+.size35.haushalts-plus-white{
+	background-position: -399px -297px;
+	z-index: 5;
+}
+
+/*
+.size35.haushalts-plus-black{
+	background-position: -468px -172px;
+	z-index: 5;
+}
+
+.size35.haushalts-plus-blue{
+	background-position: -470px -211px;
+	z-index: 5;
+}
+
+*/
+
+.size35.haushalts-versicherung-white{
+	background-position: -153px -310px;
+	z-index: 5;
+}
+
+
+/*-----------------*/
+
+.size35.claims-plus-black{
+	background-position: -693px -171px;
+	z-index: 5;
+}
+
+.size35.claims-plus-blue{
+	background-position: -694px -214px;
+	z-index: 5;
+}
+
+.size35.claims-plus-white_bk{
+	background-position: -693px -296px;
+	z-index: 5;
+}
+
+.size35.claims-plus-white{
+	background-position: -229px -253px;
+	z-index: 5;
+}
+
+
+/*-----------------*/
+
+.size35.customer-service-black{
+	background-position: -745px -169px;
+	z-index: 5;
+}
+
+.size35.customer-service-blue{
+	background-position: -746px -212px;
+	z-index: 5;
+}
+
+.size35.customer-service-white_bk{
+	background-position: -745px -294px;
+	z-index: 5;
+}
+
+.size35.customer-service-white{
+	background-position: -641px -297px;
+	z-index: 5;
+}
+
+/*-----------------*/
+
+.size35.branches-black{
+	background-position: -802px -175px;
+	z-index: 5;
+}
+
+.size35.branches-blue{
+	background-position: -803px -218px;
+	z-index: 5;
+}
+
+.size35.branches-white_bk{
+	background-position: -802px -300px;
+	z-index: 5;
+}
+
+.size35.branches-white{
+	background-position: -690px -302px;
+	z-index: 5;
+}
+
+/*-----------------*/
+
+.size35.press-black{
+	background-position: -860px -172px;
+	z-index: 5;
+}
+
+.size35.press-blue{
+	background-position: -861px -215px;
+	z-index: 5;
+}
+
+.size35.press-white_bk{
+	background-position: -860px -297px;
+	z-index: 5;
+}
+
+.size35.press-white{
+	background-position: -740px -300px;
+	z-index: 5;
+}
+
+/*-----------------*/
+
+.size35.uniqa-fidelity-black{
+	background-position: -920px -165px;
+	z-index: 5;
+}
+
+.size35.uniqa-fidelity-blue{
+	background-position: -921px -217px;
+	z-index: 5;
+}
+
+.size35.uniqa-fidelity-white_bk{
+	background-position: -920px -299px;
+	z-index: 5;
+}
+
+.size35.uniqa-fidelity-white{
+	background-position: -791px -302px;
+	z-index: 5;
+}
+
+/*-----------------*/
+
+.size35.forms-black{
+	background-position: -981px -166px;
+	z-index: 5;
+}
+
+.size35.forms-blue{
+	background-position: -982px -209px;
+	z-index: 5;
+}
+
+.size35.forms-white_bk{
+	background-position: -981px -291px;
+	z-index: 5;
+}
+
+.size35.forms-white{
+	background-position: -843px -296px;
+	z-index: 5;
+}
+
+
+/*-----------------*/
+
+.size35.investor-relations-black{
+	background-position: -1252px -2px;
+	z-index:5;
+}
+
+.size35.investor-relations-blue{
+	background-position: -1253px -51px;
+	z-index:5;
+}
+
+/*-----------------*/
+
+.size35.mobile-black{
+	background-position: -1039px -166px;
+	z-index: 5;
+}
+
+.size35.mobile-blue{
+	background-position: -1040px -209px;
+	z-index: 5;
+}
+
+.size35.mobile-white_bk{
+	background-position: -1039px -291px;
+	z-index: 5;
+}
+
+.size35.mobile-white{
+	background-position: -893px -296px;
+	z-index: 5;
+}
+
+
+/*-----------------*/
+
+.size35.sponsoring-black{
+	background-position: -1138px -169px;
+	z-index: 5;
+}
+
+.size35.sponsoring-blue{
+	background-position: -1139px -215px;
+	z-index: 5;
+}
+
+.size35.sponsoring-white_bk{
+	background-position: -1138px -294px;
+	z-index: 5;
+}
+
+.size35.sponsoring-white{
+	background-position: -978px -297px;
+	z-index: 5;
+}
+
+
+/*-----------------*/
+
+.size35.our-partners-black{
+	background-position: -1199px -164px;
+	z-index: 5;
+}
+
+.size35.our-partners-blue{
+	background-position: -1202px -220px;
+	z-index: 5;
+}
+
+.size35.our-partners-white_bk{
+	background-position: -1201px -299px;
+	z-index: 5;
+}
+
+.size35.our-partners-white{
+	background-position: -1033px -302px;
+	z-index: 5;
+}
+
+/*-----------------*/
+
+.size35.press-black{
+	background-position: -1260px -171px;
+	z-index: 5;
+}
+
+.size35.press-blue{
+	background-position: -1261px -217px;
+	z-index: 5;
+}
+
+.size35.search-loop{
+	background-position: -1187px -291px;
+	z-index: 5;
+}
+
+.size35.radio{
+	background-position: -1317px -303px;
+	z-index: 5;
+}
+
+.size35.search-faq{
+	background-position: -1366px -292px;
+	z-index: 5;
+}

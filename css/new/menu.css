@@ -1,0 +1,81 @@
+$main-color: #005eab;
+
+.my-uniqa-submenu ul {
+    margin: 0 10px 20px;
+    padding: 0;
+    border-bottom: 3px solid #e1e1e1;
+    font-size: 0;
+
+    & li {
+          padding: 0;
+          margin: 0 0 -3px;
+          display: inline-block;
+          list-style: none;
+          z-index: 0;
+          border-right: 4px solid #fff;
+      }
+
+    & a {
+        font-style: normal;
+        font-size: 14px;
+        color: #808080;
+        display: block;
+        line-height: 30px;
+        padding: 5px 15px;
+        text-decoration: none;
+        text-transform: capitalize;
+        border-bottom: 3px solid #e1e1e1;
+        position: relative;
+
+        &.current,
+        &.current:hover {
+             color: #000;
+         }
+
+        &:hover,
+        &.current,
+        &.current:hover {
+             color: #000;
+             border-bottom: 3px solid $main-color;
+         }
+    }
+}
+
+.counter {
+    position: absolute;
+    top: -4px;
+    right: 0;
+    color: #fff;
+    padding: 0 6px;
+    font-size: 9px;
+    line-height: 12px;
+}
+
+.notification-counter.green {
+    background-color: #04b675;
+}
+
+.counter.green {
+    background-color: #04b675;
+    right: 20px;
+}
+.counter.blue,
+.notification-counter.blue {
+    background-color: #005eab;
+}
+
+@media screen and (max-width: 680px) {
+    .my-uniqa-submenu ul {
+        margin-top: -15px;
+    }
+
+    .my-uniqa-submenu ul li {
+        padding-top: 15px;
+    }
+
+    .my-uniqa-submenu ul a {
+        padding: 7px 5px;
+        font-size: 12px;
+        line-height: 26px;
+    }
+}

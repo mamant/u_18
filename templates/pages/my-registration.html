@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Страхова компанія УНІКА - Страхування в Україні | УНІКА</title>
+    <link rel="stylesheet" href="./css/uniqa.min.css">
+    {% include "components/scripts-header.njk" %}
+</head>
+<body>
+{% set params = {
+'currentPage': 'index'
+} %}
+
+{% include "components/header.njk" %}
+
+<div class="container">
+    <ul class="breadcrums">
+        <li>Реєстрацiя</li>
+    </ul>
+    <div class="my-uniqa-title">
+        <h1>Реєстрацiя</h1>
+    </div>
+
+    <div class="flx-row collapse">
+        <div class="column small-12 medium-8 large-9">
+            <div class="section-descr">Обов’язковіми є поля зазначені зірочкою</div>
+            <form action="" name="user-registration">
+                <div class="u-fields flx-row">
+                    <label for="user-email" class="column small-10 medium-5 u-label xs-text-align-right">
+                        Адреса електронної пошти
+                    </label>
+                    <div class="column small-10 medium-5">
+                        <input type="email" class="u-input" name="user-email" id="user-email">
+                    </div>
+                    <div class="column shrink u-field-state"><em class="icon icon-state-def"></em></div>
+                </div>
+                <div class="u-fields flx-row">
+                    <label for="user-password" class="column small-10 medium-5 u-label xs-text-align-right">
+                        Пароль
+                    </label>
+                    <div class="column small-10 medium-5">
+                        <input type="password" class="u-input" name="user-password" id="user-password">
+                    </div>
+                    <div class="column shrink u-field-state"><em class="icon icon-state-def"></em></div>
+                </div>
+                <div class="u-fields flx-row">
+                    <label for="user-password-confirm" class="column small-10 medium-5 u-label xs-text-align-right">
+                        Підтвердження паролю
+                    </label>
+                    <div class="column small-10 medium-5">
+                        <input type="password" class="u-input" name="user-password-confirm" id="user-password-confirm">
+                    </div>
+                    <div class="column shrink u-field-state"><em class="icon icon-state-def"></em></div>
+                </div>
+                <div class="u-fields flx-row">
+                    <label for="user-password-confirm" class="column small-10 medium-5 u-label xs-text-align-right"></label>
+                    <div class="column small-10 medium-5">
+                        <img src="images/capcha.png" alt="capcha">
+                    </div>
+                </div>
+                <div class="u-fields flx-row">
+                    <label for="user-password-confirm" class="column small-10 medium-5 u-label xs-text-align-right"></label>
+                    <div class="column small-10 medium-5">
+                        <input type="checkbox" id="user-agree" name="user-agree" class="chb-custom">
+                        <label class="chb-label" for="user-agree">Надаю дозвіл на обробку моїх персональних даних.</label>
+                    </div>
+                </div>
+                <div class="u-fields flx-row">
+                    <label class="column small-10 medium-5 u-label xs-text-align-right"></label>
+                    <div class="column small-10 medium-5">
+                        <a href="index.html" class="u-btn primary is--big">Зареєструватись</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% include "components/footer.njk" %}
+{% include "components/scripts-footer.njk" %}
+</body>
+</html>

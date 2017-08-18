@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Страхова компанія УНІКА - Страхування в Україні | УНІКА</title>
+    <link rel="stylesheet" href="./css/uniqa.min.css">
+    {% include "components/scripts-header.njk" %}
+</head>
+<body>
+    {% set params = {
+        'currentPage': 'claims'
+    } %}
+
+    {% include "components/header.njk" %}
+
+    <div class="container">
+        <ul class="breadcrums">
+            <li><a class="normal" href="index.html">Головна</a></li>
+            <li>»</li>
+            <li>Страховi випадки</li>
+        </ul>
+        <div class="my-uniqa-title">
+            <h1>Платіжний календар</h1>
+        </div>
+        {% include "components/menu.njk" %}
+
+         <div class="flx-row">
+            <div class="column small-12 medium-8 large-9">
+              <div class="document-view">
+                  <div class="document-view__header">Загальна сума договору № 123 456 - 800 грн.</div>
+                  <table class="document-view__table">
+                    <tr>
+                      <th colspan="4">Графік сплати платежів</th>
+                      <th colspan="3">Фактично сплачені платежі</th>
+                    </tr>
+                    <tr>
+                      <td width="14">&nbsp;</td>
+                      <td>№</td>
+                      <td>Дата сплати</td>
+                      <td>Сума, грн</td>
+                      <td>№</td>
+                      <td>Дата сплати</td>
+                      <td>Сума, грн</td>
+                    </tr>
+                    <tr class="green-line">
+                      <td><input type="checkbox" id="line-1" name="line-1"></td>
+                      <td>1</td>
+                      <td>20.01.2016</td>
+                      <td>200,00</td>
+                      <td>1</td>
+                      <td>20.01.2016</td>
+                      <td>200,00</td>
+                    </tr>
+                    <tr class="green-line">
+                      <td><input type="checkbox" id="line-2" name="line-2"></td>
+                      <td>2</td>
+                      <td>20.01.2016</td>
+                      <td>200,00</td>
+                      <td>1</td>
+                      <td>20.01.2016</td>
+                      <td>200,00</td>
+                    </tr>
+                    <tr class="red-line">
+                      <td><input type="checkbox" id="line-2" name="line-2"></td>
+                      <td>3</td>
+                      <td>20.01.2016</td>
+                      <td>200,00</td>
+                      <td colspan="3">Заборгованiсть 200 грн</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" id="line-2" name="line-2"></td>
+                      <td>4</td>
+                      <td>20.01.2016</td>
+                      <td>200,00</td>
+                      <td colspan="3">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                      <td colspan="3">Планова сума страхових платежів на 20.02.2016 <strong>200,20 грн</strong>.</td>
+                      <td colspan="3">Фактично сплачені платежі на 20.02.2016 <strong>400,20 грн</strong>.</td>
+                    </tr>
+                  </table>
+              </div>
+              <div class="text-align-right price-line">плаіж № 3 - 200 грн</div>
+              <div class="text-align-right price-line">плаіж № 4 - 200 грн</div>
+              <div class="text-align-right total-line">Всього: <strong>400</strong> грн</div>
+              <div class="u-submit-row">
+                  <a href="my-claims-item.html" class="u-btn secondary back-btn">Назад</a>
+                  <a href="my-payment.html" class="u-btn primary">Сплатити</a>
+              </div>
+            </div>
+            <div class="column small-12 medium-4 large-3">
+                {% include "components/agent.njk" %}
+            </div>
+        </div>
+    </div>
+
+    {% include "components/footer.njk" %}
+    {% include "components/scripts-footer.njk" %}
+</body>
+</html>

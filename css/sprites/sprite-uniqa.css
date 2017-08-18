@@ -1,0 +1,114 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-black-bell {
+  background-image: url(sprite-uniqa.png);
+  background-position: -50px -52px;
+  width: 14px;
+  height: 16px;
+}
+.icon-email {
+  background-image: url(sprite-uniqa.png);
+  background-position: -78px 0px;
+  width: 16px;
+  height: 12px;
+}
+.icon-envelop {
+  background-image: url(sprite-uniqa.png);
+  background-position: -78px -12px;
+  width: 16px;
+  height: 12px;
+}
+.icon-file-pdf {
+  background-image: url(sprite-uniqa.png);
+  background-position: -18px -52px;
+  width: 16px;
+  height: 16px;
+}
+.icon-green-bell {
+  background-image: url(sprite-uniqa.png);
+  background-position: 0px -52px;
+  width: 18px;
+  height: 16px;
+}
+.icon-important {
+  background-image: url(sprite-uniqa.png);
+  background-position: -34px -52px;
+  width: 16px;
+  height: 16px;
+}
+.icon-insurance-type-car {
+  background-image: url(sprite-uniqa.png);
+  background-position: -28px 0px;
+  width: 28px;
+  height: 24px;
+}
+.icon-insurance-type-house {
+  background-image: url(sprite-uniqa.png);
+  background-position: 0px 0px;
+  width: 28px;
+  height: 26px;
+}
+.icon-insurance-type-medical {
+  background-image: url(sprite-uniqa.png);
+  background-position: 0px -26px;
+  width: 24px;
+  height: 26px;
+}
+.icon-logout {
+  background-image: url(sprite-uniqa.png);
+  background-position: -78px -50px;
+  width: 11px;
+  height: 14px;
+}
+.icon-state-def {
+  background-image: url(sprite-uniqa.png);
+  background-position: -56px -22px;
+  width: 22px;
+  height: 22px;
+}
+.icon-state-error {
+  background-image: url(sprite-uniqa.png);
+  background-position: -56px 0px;
+  width: 22px;
+  height: 22px;
+}
+.icon-state-ok {
+  background-image: url(sprite-uniqa.png);
+  background-position: -24px -26px;
+  width: 22px;
+  height: 22px;
+}
+.icon-user-login {
+  background-image: url(sprite-uniqa.png);
+  background-position: -64px -52px;
+  width: 12px;
+  height: 12px;
+}
+.icon-user-registration {
+  background-image: url(sprite-uniqa.png);
+  background-position: -78px -37px;
+  width: 12px;
+  height: 13px;
+}
+.icon-user-small {
+  background-image: url(sprite-uniqa.png);
+  background-position: -78px -24px;
+  width: 13px;
+  height: 13px;
+}

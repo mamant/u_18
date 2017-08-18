@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="65px" viewBox="0 0 50 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>bónusz igazolás kérés@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.5 16 10.5 16 10.5 0.4924 0.5 0.4924"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Uniqa---ügyintézés-D-Copy" transform="translate(-522.000000, -423.000000)">
+            <g id="1" transform="translate(57.000000, 421.000000)">
+                <g id="bónusz-igazolás-kérés" transform="translate(465.000000, 2.000000)">
+                    <path d="M45,25 C45,36.046 36.046,45 25,45 C13.954,45 5,36.046 5,25 C5,13.954 13.954,5 25,5 C36.046,5 45,13.954 45,25 Z M25.2266,14.2978 L28.3866,20.7008 L35.4536,21.7278 L30.3396,26.7118 L31.5466,33.7498 L25.2266,30.4268 L18.9066,33.7498 L20.1136,26.7118 L14.9996,21.7278 L22.0666,20.7008 L25.2266,14.2978 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                    <path d="M25,47.5 C12.574,47.5 2.5,37.426 2.5,25 C2.5,12.574 12.574,2.5 25,2.5 C37.426,2.5 47.5,12.574 47.5,25 C47.5,37.426 37.426,47.5 25,47.5 M25,0 C11.193,0 0,11.193 0,25 C0,38.807 11.193,50 25,50 C38.807,50 50,38.807 50,25 C50,11.193 38.807,0 25,0" id="Fill-5" fill="#FFFFFF"></path>
+                    <g id="Group-9" transform="translate(12.000000, 49.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-8"></g>
+                        <path d="M0.5,0.4924 L0.5,16.0004 L5.5,11.0004 L10.5,16.0004 L10.5,3.3814 C6.924,3.0594 3.549,2.0514 0.5,0.4924" id="Fill-7" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                    </g>
+                    <path d="M27.5,52.3817 L27.5,64.9997 L32.5,59.9997 L37.5,64.9997 L37.5,49.4927 C34.451,51.0517 31.076,52.0597 27.5,52.3817" id="Fill-10" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

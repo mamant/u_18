@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Страхова компанія УНІКА - Страхування в Україні | УНІКА</title>
+    <link rel="stylesheet" href="./css/uniqa.min.css">
+    {% include "components/scripts-header.njk" %}
+</head>
+<body>
+{% set params = {
+'currentPage': 'insurances'
+} %}
+
+{% include "components/header.njk" %}
+
+<div class="container">
+    <ul class="breadcrums">
+        <li><a class="normal" href="index.html">Головна</a></li>
+        <li>»</li>
+        <li><a class="normal" href="my-claims.html">Страховi випадки</a></li>
+        <li>»</li>
+        <li>Страховий випадок</li>
+    </ul>
+    <div class="my-uniqa-title">
+        <h1>Страховi випадки</h1>
+    </div>
+    {% include "components/menu.njk" %}
+
+    <div class="flx-row">
+        <div class="column small-12 medium-12 large-9">
+            {% include "sections/claim.njk" %}
+        </div>
+        <div class="column small-12 medium-12 large-3">
+            {% include "components/agent.njk" %}
+        </div>
+    </div>
+</div>
+
+{% include "components/footer.njk" %}
+
+{% include "sections/modal-request.njk" %}
+{% include "sections/modal-upload.njk" %}
+
+{% include "components/scripts-footer.njk" %}
+</body>
+</html>

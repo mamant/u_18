@@ -1,0 +1,61 @@
+<!--<script src="./js/modernizr-2.6.2.min.js "></script>-->
+<!--<script src="./js/jquery-1.10.2.min.js "></script>-->
+<!--<script src="./js/prettyCheckable.js "></script>-->
+<!--<script src="./js/jquery-ui.min.js "></script>-->
+<!--<script src="./js/datepicker-ro.js "></script>-->
+<!--<script src="./js/jquery.bxslider.min.js "></script>-->
+<!--<script src="./js/jquery.form.js "></script>-->
+<!--<script src="./js/jQueryRotate.2.1.js "></script>-->
+<!--<script src="./js/main.js "></script>-->
+<!--<script src="./js/fct.js "></script>-->
+<!--<script src="./js/image-zoom.js "></script>-->
+<!--<script src="./js/facebook.js "></script>-->
+<!--<script src="./js/client.js "></script>-->
+<!--<script src="./js/custom_rules.min.js "></script>-->
+<!--<script src="./js/register.js "></script>-->
+<!--<script src="./js/leads.js "></script>-->
+<!--<script src="./js/jquery.selectric.js "></script>-->
+<!--<script src="./js/jquery.touchSwipe.js "></script>-->
+<!--<script src="./js/jquery.validate.min.js "></script>-->
+<!--<script src="./js/mask.js "></script>-->
+<!--<script src="./js/jquery.tooltipster.js "></script>-->
+<!--<script src="./js/common(1).js "></script>-->
+<!--<script src="./js/add.js "></script>-->
+<!--<script src="./js/travel.js "></script>-->
+<!--<script src="./js/casco.js "></script>-->
+<!--<script src="./js/property.js "></script>-->
+<!--<script src="./js/dgo.js "></script>-->
+<!--<script src="./js/osago.js "></script>-->
+
+
+<script src="./js/jquery-3.2.1.min.js"></script>
+<script src="./js/jquery-ui.js"></script>
+<script src="./js/jquery.validate.min-1.16.0.js"></script>
+<script src="./js/form-validation.js"></script>
+
+<script src="./js/overall.js "></script>
+<script src="./js/mask.js "></script>
+
+<script src="./js/jquery.custom-file-input.js"></script>
+<script>
+    // Todo move to separate file
+    $('.toggle .document-view__header').on('click', function () {
+        $(this).parent().toggleClass('on');
+    });
+    // Inbox
+    $('.inbox--open').on('click', function () {
+        $(this).parent().toggleClass('on');
+    });
+
+     $( ".datepicker" ).datepicker();
+
+    // Modal
+    $('.modal-close').on('click', function () {
+        $('.modal-bacckdrop').hide();
+    });
+
+    function showMyModal(modal) {
+        $('.' + modal).css({'z-index': '100'}).toggle();
+    }
+
+</script>

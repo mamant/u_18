@@ -1,0 +1,57 @@
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {clear: both;}
+
+.clearfix {*zoom: 1;}
+
+.prettycheckbox,
+.prettyradio {
+    display: inline-block;
+    padding:0;
+    margin:0;
+    margin-right: 20px;
+}
+
+.product-box.description-small.span_1_of_3 .prettycheckbox,
+.product-box.description-small.span_1_of_3 .prettyradio {
+  margin-right: 0px;
+}
+
+.prettycheckbox a,
+.prettyradio a{
+    width: 25px;
+    height: 25px;
+    background: url('../../images/sprite.png') -300px -16px no-repeat;
+    display: block;
+    float: left;
+    cursor: pointer;
+    margin: 3px 5px 0px 0px;
+}
+
+.prettyradio a { background-position: -400px -16px; }
+
+.prettycheckbox a:focus,
+.prettyradio a:focus {outline: 0 none;}
+
+.prettycheckbox a.checked { background-position: -325px -16px !important; }
+
+.prettyradio a.checked { background-position: -425px -16px !important; }
+
+.prettycheckbox a.checked:focus{ background-position: 0 -90px; }
+.prettyradio a.checked:focus { background-position: 0 -210px; }
+
+.prettycheckbox label,
+.prettyradio label {
+  display: block;
+  float: left;
+  height: 30px;
+  line-height: 35px;
+  margin: 0px;
+  text-align: left;
+  cursor: pointer;
+  width: auto;
+}

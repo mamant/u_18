@@ -1,0 +1,122 @@
+/*Inbox section*/
+.inbox-folder {
+  padding: 20px 15px;
+  background-color: #f1f1f1;
+  letter-spacing: 0.8px;
+  letter-spacing: .05rem;
+  overflow: hidden
+}
+.inbox-folder.is-active {
+  background-color: #005caf;
+  color: #fff
+}
+.inbox-folder.is-active .inbox-counter {
+  background-color: #f1f1f1;
+  color: #005caf
+}
+.inbox-folder .inbox-counter {
+  display: inline-block;
+  padding: 0 6px;
+  line-height: 18px;
+  font-size: 12.8px;
+  font-size: .8rem;
+  background-color: #005caf;
+  color: #fff;
+  border-radius: 4px;
+  float: right
+}
+
+.inbox-list {
+  border-left: 2px solid #005caf;
+  min-height: 300px;
+  padding-left: 0;
+
+}
+
+.inbox-list .inbox-list__line.on {
+  color: #005caf;
+  background-color: #dde9f3
+}
+
+.inbox-list .inbox-list__line.on .inbox-list__content {
+  display: block
+}
+
+.inbox-list__line {
+  position: relative;
+  border-bottom: 1px solid #e1e1e1;
+  color: #999;
+  cursor: pointer
+}
+
+.inbox-list__line .inbox--open {
+  padding: 15px
+}
+
+.inbox-list__line .icon {
+  float: left;
+  margin-right: 8px;
+  margin-top: 3px
+}
+
+.inbox-list__line .icon.icon-important {
+  margin-top: 2px
+}
+
+.inbox-list__line .icon.icon-green-bell {
+  margin-top: 1px
+}
+
+.inbox-list__line:hover {
+  background-color: #dde9f3;
+  color: #333
+}
+
+.inbox-list__line.is-new {
+  color: #333;
+  background-color: #f6f5f5
+}
+
+.inbox-list__line.is-new:hover {
+  background-color: #dde9f3
+}
+
+.inbox-list__options {
+  margin-bottom: 15px
+}
+
+.inbox-list__options .u-btn + .u-btn {
+  margin-left: 10px
+}
+
+.inbox-list__content {
+  color: #666;
+  padding: 15px;
+  display: none;
+  background: #fff;
+  font-size: 14.4px;
+  font-size: .9rem;
+  border-top: 1px solid #e1e1e1;
+  cursor: default
+}
+
+@media screen and (max-width: 480px) {
+  .inbox-list {
+    border-top: 2px solid #005caf;
+    border-left: none;
+    padding-left: 0;
+    padding-right: 0
+  }
+  .inbox-list__line {
+    padding: 10px 0
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .inbox-list {
+    border-top: 2px solid #005caf;
+    border-left: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

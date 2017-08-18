@@ -1,0 +1,908 @@
+/*----------------------------------*/
+/*----------- All Icons ------------*/
+/*----------------------------------*/
+i.bk_icon {
+	background-image: url("../../images/sprite_final.png");
+	background-repeat: no-repeat;
+	left: 0;
+	position: absolute;
+	top: 0;
+	background-size: 1820px;
+}
+
+
+.size60 {
+	height: 60px;
+	width: 60px;
+}
+.size35 {
+	height: 35px;
+	width: 35px;
+}
+.size25 {
+	height: 25px;
+	width: 25px;
+}
+.size35-prod{
+	height: 35px;
+	width: 35px;
+}
+
+.list_icons .bk_icon{
+	background-color: red;
+}
+.list_icons{
+	columns: 15;
+	-webkit-columns: 15;
+	-moz-columns: 15;
+	width: 901px;
+}
+.list_icons li {
+	background: #4d90fe;
+	display: inline-block;
+	height: 60px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	overflow: hidden;
+	position: relative;
+	width: 60px;
+}
+.bk_icon.size25 {
+	top: 3px;
+}
+.button.opaque.call-btn.mainColor.button_send_request {
+	border: 0 none;
+}
+/*----------------------------------------------------------------------------------*/
+
+.size60.UNI-icon-health-insurance-basic {
+	background-position: 10px 9px;
+	z-index: 5;
+}
+.size60.UNI-icon-echipa-si-success {
+	background-position: -50px 11px;
+	z-index: 5;
+}
+.size60.UNI-icon-integritate-si-respect {
+	background-position: -114px 9px;
+	z-index: 5;
+}
+.size60.UNI-icon-general-third-party-liability {
+	background-position: -173px 11px;
+	z-index: 5;
+}
+.size60.UNI-icon-optim-eficient {
+	background-position: -237px 9px;
+	z-index: 5;
+}
+.size60.UNI-icon-ablebensversicherung {
+	background-position: -296px 10px;
+	z-index: 5;
+}
+
+.size60.UNI-icon-dental-insurance {
+	background-position: -357px 9px;
+	z-index: 5;
+}
+.size60.UNI-icon-Haftpflicht-insurance {
+	background-position: -423px -2px;
+	z-index: 5;
+}
+.size60.UNI-icon-terms-and-conditions {
+	background-position: -479px 8px;
+	z-index: 5;
+}
+.size60.UNI-icon-health-insurance-plus {
+	background-position: 8px -50px;
+	z-index: 5;
+}
+.size60.UNI-icon-household-plus {
+	background-position: -53px -52px;
+	z-index: 5;
+}
+.size60.UNI-icon-kasko {
+	background-position: -116px -61px;
+	z-index: 5;
+}
+.size60.UNI-icon-staatliche-minimumversicherung-2 {
+	background-position: -174px -50px;
+	z-index: 5;
+}
+.size60.UNI-icon-travel-insurance {
+	background-position: -242px -62px;
+	z-index: 5;
+}
+.size60.UNI-icon-branches {
+	background-position: -295px -52px;
+	z-index: 5;
+}
+.size60.UNI-icon-career {
+	background-position: -358px -52px;
+	z-index: 5;
+}
+.size60.UNI-icon-claims {
+	background-position: -418px -52px;
+	z-index: 5;
+}
+
+.size60.UNI-icon-sponsoring {
+	background-position: -479px -51px;
+	z-index: 5;
+}
+.size60.UNI-icon-customer-service {
+	background-position: 9px -110px;
+	z-index: 5;
+}
+.size60.UNI-icon-csr {
+	background-position: -53px -110px;
+	z-index: 5;
+}
+.size60.UNI-icon-forms {
+	background-position: -114px -111px;
+	z-index: 5;
+}
+.size60.UNI-icon-investor-relations {
+	background-position: -175px -109px;
+	z-index: 5;
+}
+.size60.UNI-icon-mobile {
+	background-position: -236px -110px;
+	z-index: 5;
+}
+.size60.UNI-icon-news {
+	background-position: -296px -112px;
+	z-index: 5;
+}
+.size60.UNI-icon-our-partners {
+	background-position: -357px -113px;
+	z-index: 5;
+}
+.size60.UNI-icon-uniqa-fidelity {
+	background-position: -417px -114px;
+	z-index: 5;
+}
+.size60.UNI-icon-uniqa-insurance {
+	background-position: -485px -120px;
+	z-index: 5;
+}
+.size35.UNI-icon-health-insurance-basic {
+	background-position: 2px -169px;
+	z-index: 5;
+}
+.size35.UNI-icon-echipa-si-success {
+	background-position: -34px -169px;
+	z-index: 5;
+}
+.size35.UNI-icon-integritate-si-respect {
+	background-position: -70px -170px;
+	z-index: 5;
+}
+.size35.UNI-icon-general-third-party-liability {
+	background-position: -105px -170px;
+	z-index: 5;
+}
+.size35.UNI-icon-general-third-party-liability {
+	background-position: -105px -169px;
+	z-index: 5;
+}
+.size35.UNI-icon-optim-eficient {
+	background-position: -141px -170px;
+	z-index: 5;
+}
+.size35.UNI-icon-ablebensversicherung {
+	background-position: -178px -170px;
+	z-index: 5;
+}
+.size35.UNI-icon-dental-insurance {
+	background-position: -216px -170px;
+	z-index: 5;
+}
+.size35.UNI-icon-Haftpflicht-insurance {
+	background-position: -250px -169px;
+	z-index: 5;
+}
+.size35.UNI-icon-terms-and-conditions {
+	background-position: -286px -171px;
+	z-index: 5;
+}
+.size35.UNI-icon-health-insurance-plus {
+	background-position: 2px -204px;
+	z-index: 5;
+}
+.size35.UNI-icon-household-plus {
+	background-position: -34px -204px;
+	z-index: 5;
+}
+.size35.UNI-icon-kasko {
+	background-position: -69px -205px;
+	z-index: 5;
+}
+.size35.UNI-icon-staatliche-minimumversicherung-2 {
+	background-position: -106px -204px;
+	z-index: 5;
+}
+.size35.UNI-icon-travel-insurance {
+	background-position: -142px -204px;
+	z-index: 5;
+}
+.size35.UNI-icon-branches {
+	background-position: -178px -204px;
+	z-index: 5;
+}
+.size35.UNI-icon-career {
+	background-position: -214px -204px;
+	z-index: 5;
+}
+.size35.UNI-icon-claims {
+	background-position: -250px -203px;
+	z-index: 5;
+}
+.size35.UNI-icon-sponsoring {
+	background-position: -287px -204px;
+	z-index: 5;
+}
+.size35.UNI-icon-customer-service {
+	background-position: 2px -241px;
+	z-index: 5;
+}
+.size35.UNI-icon-csr {
+	background-position: -34px -240px;
+	z-index: 5;
+}
+.size35.UNI-icon-forms {
+	background-position: -70px -242px;
+	z-index: 5;
+}
+.size35.UNI-icon-investor-relations {
+	background-position: -105px -241px;
+	z-index: 5;
+}
+.size35.UNI-icon-mobile {
+	background-position: -142px -240px;
+	z-index: 5;
+}
+.size35.UNI-icon-news {
+	background-position: -179px -242px;
+	z-index: 5;
+}
+.size35.UNI-icon-our-partners {
+	background-position: -214px -241px;
+	z-index: 5;
+}
+.size35.UNI-icon-uniqa-fidelity {
+	background-position: -250px -241px;
+	z-index: 5;
+}
+.size35.UNI-icon-uniqa-insurance {
+	background-position: -287px -242px;
+	z-index: 5;
+}
+.size25.UNI-icon-death {
+	background-position: -816px -252px;
+	z-index: 5;
+}
+.size25.UNI-icon-invalidity {
+	background-position: -952px -308px;
+	z-index: 5;
+}
+.size25.UNI-icon-hospitalization {
+	background-position: -948px -280px;
+	z-index: 5;
+}
+.size25.UNI-icon-fractures {
+	background-position: -948px -252px;
+	z-index: 5;
+}
+.size25.UNI-icon-surgery {
+	background-position: -152px -308px;
+	z-index: 5;
+}
+.size25.UNI-icon-medical-transportation {
+	background-position: -284px -308px;
+	z-index: 5;
+}
+.size25.UNI-icon-earthquake {
+	background-position: -816px -280px;
+	z-index: 5;
+}
+.size25.UNI-icon-land-sliding {
+	background-position: -418px -280px;
+	z-index: 5;
+}
+.size25.UNI-icon-land-sliding {
+	background-position: -418px -280px;
+	z-index: 5;
+}
+.size25.UNI-icon-flood {
+	background-position: -947px -226px;
+	z-index: 5;
+}
+.size25.UNI-icon-fire {
+	background-position: -947px -194px;
+	z-index: 5;
+}
+.size25.UNI_icon_vehicle-explosion {
+	background-position: -681px -195px;
+	z-index: 5;
+}
+.size25.UNI-icon-lightening {
+	background-position: -418px -309px;
+	z-index: 5;
+}
+.size25.UNI_icon-24-hours-service {
+	background-position: -814px -169px;
+	z-index: 5;
+}
+.size25.UNI_icon_medical-expenses {
+	background-position: -282px -281px;
+	z-index: 5;
+}
+.size25.UNI_icon_hospitalization-costs {
+	background-position: -549px -196px;
+	z-index: 5;
+}
+.size25.UNI_icon_vehicle-natural-events {
+	background-position: -682px -279px;
+	z-index: 5;
+}
+.size25.UNI_icon_vehicle-collision {
+	background-position: -681px -170px;
+	z-index: 5;
+}
+.size25.UNI-icon-falling-of-objects {
+	background-position: -948px -168px;
+	z-index: 5;
+}
+.size25.UNI_icon_vehicle-towing-to-service {
+	background-position: -682px -308px;
+	z-index: 5;
+}
+.size25.UNI_icon_mptl-property-damage {
+	background-position: -550px -280px;
+	z-index: 5;
+}
+.size25.UNI_icon_personal-injury-or-death {
+	background-position: -549px -307px;
+	z-index: 5;
+}
+.size25.UNI_icon_legal-costs-incurred-by-person-injured {
+	background-position: -548px -226px;
+	z-index: 5;
+}
+.size25.UNI_icon_buildings {
+	background-position: -816px -280px;
+	z-index: 5;
+}
+.size25.UNI_icon_content {
+	background-position: -151px -337px;
+	z-index: 5;
+}
+.size25.UNI_icon_machinery-breakdown {
+	background-position: -550px -336px;
+	z-index: 5;
+}
+.size25.UNI_icon_legal-liability {
+	background-position: -547px -226px;
+	z-index: 5;
+}
+.size25.UNI_icon_carriers-liability-insurance {
+	background-position: -16px -336px;
+	z-index: 5;
+}
+.size25.UNI_icon_product-liability-insurance {
+	background-position: -951px -337px;
+	z-index: 5;
+}
+.size25.UNI_icon_medical-malpraxis-insurance {
+	background-position: -682px -337px;
+	z-index: 5;
+}
+.size25.UNI_icon_pharmacist-malpraxis {
+	background-position: -548px -251px;
+	z-index: 5;
+}
+.size25.UNI_icon_professional-indemnity {
+	background-position: -549px -196px;
+	z-index: 5;
+}
+.size25.UNI_icon_death-from-any-cause {
+	background-position: -815px -252px;
+	z-index: 5;
+}
+.size25.UNI_icon_permanent-disability-from-any-cause {
+	background-position: -951px -309px;
+	z-index: 5;
+}
+.size25.UNI_icon_hospitalization {
+	background-position: -948px -280px;
+	z-index: 5;
+}
+.size25.UNI_icon_surgery {
+	background-position: -152px -309px;
+	z-index: 5;
+}
+.size25.UNI_icon_medical-expenses {
+	background-position: -282px -280px;
+	z-index: 5;
+}
+.size25.UNI_icon_immobilization-in-a-cast {
+	background-position: -948px -252px;
+	z-index: 5;
+}
+.size25.UNI_icon_death-by-accident {
+	background-position: -815px -252px;
+	z-index: 5;
+}
+.size25.UNI_icon_permanent-disability-from-accident {
+	background-position: -951px -308px;
+	z-index: 5;
+}
+.size25.UNI_icon_immobilization-in-a-cast-accident {
+	background-position: -948px -252px;
+	z-index: 5;
+}
+.size25.UNI_icon_additional-expenses {
+	background-position: -282px -281px;
+	z-index: 5;
+}
+.size25.UNI_icon_home-treatement {
+	background-position: -285px -335px;
+	z-index: 5;
+}
+.size25.UNI_icon_medical-transport {
+	background-position: -284px -308px;
+	z-index: 5;
+}
+.size25.UNI_icon_dental-treatment {
+	background-position: -550px -168px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-health-insurance-basic {
+	background-position: -1092px -1px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-echipa-si-success {
+	background-position: -1092px -227px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-integritate-si-respect {
+	background-position: -1092px -266px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-general-third-party-liability {
+	background-position: -1141px -190px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-optim-eficient {
+	background-position: -1141px -36px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-ablebensversicherung {
+	background-position: -1140px -227px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-dental-insurance {
+	background-position: -1188px -1px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-Haftpflicht-insurance {
+	background-position: -1184px -40px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-terms-and-conditions {
+	background-position: -1185px -268px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-health-insurance-plus {
+	background-position: -1091px -42px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-household-plus {
+	background-position: -1093px -189px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-kasko {
+	background-position: -1091px -306px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-staatliche-minimumversicherung-2 {
+	background-position: -1142px 0;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-travel-insurance {
+	background-position: -1141px -113px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-branches {
+	background-position: -1140px -270px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-career {
+	background-position: -1182px -78px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-claims {
+	background-position: -1139px -306px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-sponsoring {
+	background-position: -1184px -229px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-customer-service {
+	background-position: -1092px -76px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-csr {
+	background-position: -1091px -112px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-forms {
+	background-position: -1092px -152px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-investor-relations {
+	background-position: -1140px -74px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-mobile {
+	background-position: -1141px -152px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-news {
+	background-position: -1182px -116px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-our-partners {
+	background-position: -1183px -193px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-uniqa-fidelity {
+	background-position: -1183px -155px;
+	z-index: 5;
+}
+.size35-prod.UNI-icon-uniqa-insurance {
+	background-position: -1184px -311px;
+	z-index: 5;
+}
+.size25.UNI_icon_business-interuption {
+	background-position: -17px -307px;
+	z-index: 5;
+}
+
+/*--------------------------------*/
+.size25.u001 {
+	background-position: -69px -281px;
+}
+.size25.u002 {
+	background-position: -70px -310px;
+}
+.size25.u003 {
+	background-position: -73px -336px;
+}
+.size25.u004 {
+	background-position: -103px -281px;
+}
+.size25.u005 {
+	background-position: -105px -310px;
+}
+.size25.u006 {
+	background-position: -108px -337px;
+}
+.size25.u007 {
+	background-position: -194px -280px;
+}
+.size25.u008 {
+	background-position: -195px -307px;
+}
+.size25.u009 {
+	background-position: -194px -332px;
+}
+.size25.u009 {
+	background-position: -194px -332px;
+}
+.size25.u011 {
+	background-position: -231px -305px;
+}
+.size35.u012 {
+	background-position: -374px -183px;
+}
+.size60.u013 {
+	background-position: -424px -172px;
+}
+.size60.u014 {
+	background-position: -482px -171px;
+}
+.size60.u015 {
+	background-position: -599px -261px;
+}
+.size60.u015 {
+	background-position: -599px -261px;
+}
+.size60.u016 {
+	background-position: -736px -405px;
+}
+.size60.u010 {
+	background-position: -736px -405px;
+}
+.size60.u017 {
+	background-position: -734px -219px;
+}
+.size60.u018 {
+	background-position: -733px -277px;
+}
+.size60.u019 {
+	background-position: -865px -186px;
+}
+.size35.u020 {
+	background-position: -877px -217px;
+}
+.size35.u021 {
+	background-position: -877px -271px;
+}
+.size35.u022 {
+	background-position: -880px -315px;
+}
+.size35.u023 {
+	background-position: -998px -175px;
+}
+.size35.u024 {
+	background-position: -997px -223px;
+}
+.size35.u025 {
+	background-position: -998px -269px;
+}
+.size35.u026 {
+	background-position: -1002px -317px;
+}
+.size35.u027 {
+	background-position: -1046px -188px;
+}
+.size35.u028 {
+	background-position: -1047px -227px;
+}
+
+
+
+.size60.u028 {
+	background-position: -1233px 0;
+}
+.size60.u029 {
+	background-position: -1292px -1px;
+}
+.size60.u030 {
+	background-position: -1354px -2px;
+}
+.size60.u031 {
+	background-position: -1412px 0;
+}
+.size60.u032 {
+	background-position: -1473px -4px;
+}
+.size60.u033 {
+	background-position: -1532px -1px;
+}
+.size60.u034 {
+	background-position: -1593px 0;
+}
+.size60.u035 {
+	background-position: -1654px 0;
+}
+.size60.u036 {
+	background-position: -1710px 1px;
+}
+.size60.u037 {
+	background-position: -1233px -61px;
+}
+.size60.u038 {
+	background-position: -1292px -61px;
+}
+.size60.u039 {
+	background-position: -1353px -62px;
+}
+.size60.u040 {
+	background-position: -1412px -61px;
+}
+.size60.u041 {
+	background-position: -1472px -60px;
+}
+.size60.u042 {
+	background-position: -1531px -60px;
+}
+.size60.u043 {
+	background-position: -1591px -59px;
+}
+.size60.u044 {
+	background-position: -1654px -60px;
+}
+.size60.u045 {
+	background-position: -1712px -58px;
+}
+.size60.u046 {
+	background-position: -1233px -121px;
+}
+.size60.u047 {
+	background-position: -1294px -118px;
+}
+.size60.u048 {
+	background-position: -1352px -121px;
+}
+.size60.u049 {
+	background-position: -1414px -119px;
+}
+.size60.u050 {
+	background-position: -1473px -120px;
+}
+.size60.u051 {
+	background-position: -1533px -119px;
+}
+.size60.u052 {
+	background-position: -1595px -120px;
+}
+.size60.u053 {
+	background-position: -1651px -118px;
+}
+.size60.u054 {
+	background-position: -1712px -121px;
+}
+
+
+.size35.u055 {
+	background-position: -1244px -257px;
+}
+.size35.u056 {
+	background-position: -1286px -256px;
+}
+.size35.u057 {
+	background-position: -1325px -256px;
+}
+.size35.u058 {
+	background-position: -1366px -258px;
+}
+.size35.u059 {
+	background-position: -1405px -257px;
+}
+.size35.u060 {
+	background-position: -1446px -256px;
+}
+.size35.u061 {
+	background-position: -1486px -257px;
+}
+.size35.u062 {
+	background-position: -1525px -256px;
+}
+.size35.u063 {
+	background-position: -1566px -256px;
+}
+.size35.u064 {
+	background-position: -1605px -256px;
+}
+.size35.u065 {
+	background-position: -1645px -256px;
+}
+.size35.u066 {
+	background-position: -1247px -296px;
+}
+.size35.u067 {
+	background-position: -1285px -296px;
+}
+.size35.u068 {
+	background-position: -1326px -296px;
+}
+.size35.u069 {
+	background-position: -1365px -297px;
+}
+.size35.u070 {
+	background-position: -1405px -297px;
+}
+.size35.u071 {
+	background-position: -1446px -296px;
+}
+.size35.u072 {
+	background-position: -1486px -297px;
+}
+.size35.u073 {
+	background-position: -1527px -301px;
+}
+.size35.u074 {
+	background-position: -1565px -296px;
+}
+.size35.u075 {
+	background-position: -1606px -297px;
+}
+.size35.u076 {
+	background-position: -1649px -293px;
+}
+.size35.u077 {
+	background-position: -1246px -336px;
+}
+.size35.u078 {
+	background-position: -1285px -336px;
+}
+.size35.u079 {
+	background-position: -1326px -335px;
+}
+.size35.u080 {
+	background-position: -1365px -336px;
+}
+.size35.u081 {
+	background-position: -1406px -336px;
+}
+
+/*-*/
+.size25.UNI_icon_death-by-accident {
+	background-position: -21px -281px !important;
+	z-index: 5;
+}
+.bk_icon.size60.u021.dark_blue {
+	background-position: -867px -329px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
