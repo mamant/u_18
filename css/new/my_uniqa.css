@@ -2,6 +2,42 @@
 $main-color: #005eab;
 $light-grey-color: #e1e1e1;
 
+
+a.account-type:link,
+a.account-type:visited,
+span.account-type {
+	background: #7fadd4;
+	color: #fff;
+	display: block;
+	float: left;
+	height: 28px;
+	line-height: 28px;
+	margin-right: 2px;
+	padding: 0 22px;
+	text-decoration: none;
+	font-size: 0.929em;
+	font-style: normal;
+
+	background: #fff;
+	color: #b2b2b2;
+	padding-left: 0;
+}
+
+a.account-type:hover,
+a.account-type.selected,
+span.account-type:hover,
+span.account-type.selected {
+	background: #005ca9;
+	font-size: 0.929em;
+	font-style: normal;
+
+	background: #fff;
+	color: #0059ab;
+
+}
+
+
+
 img {max-width: 100%;}
 
 .icon {
@@ -120,7 +156,7 @@ img {max-width: 100%;}
 
 .personal-header {
   position: absolute;
-	top: 8px;
+	top: 18px;
 	right: 115px;
 
   &__item {

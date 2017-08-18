@@ -1660,7 +1660,9 @@ header {
 }
 
 .section.top-links {
-	height: 30px;
+  height: 50px;
+  padding-top: 12px;
+  box-sizing: border-box;
 }
 
 .headers {
@@ -2922,7 +2924,7 @@ nav.form_nav ul li.active {
 	max-width: 1600px;
 	min-width: 320px;
 	padding: 0 30px;
-	width: 87%;
+	width: 92%;
 }
 
 .tip {
