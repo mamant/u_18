@@ -7,6 +7,28 @@ padding: 0 15px;
      padding-bottom: 10px;
      white-space: nowrap;
      justify-content: space-around;
+
+     & .is--active {
+       color: #333;
+       cursor: pointer;
+
+       &:after {
+         display: inline-block;
+         content: '\2023';
+         margin-left: 5px;
+         font-size: 28px;
+         line-height: 12px;
+         vertical-align: bottom;
+       }
+     }
+
+     & .is--up:after {
+       transform: rotate(90deg);
+     }
+
+     & .is--down:after {
+       transform: rotate(-90deg);
+     }
  }
 
 &__line {
