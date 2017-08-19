@@ -231,13 +231,19 @@ input[type=checkbox].chb-custom {
 
     }
 
-        &:checked + .chb-label {
-        &:before {
-             border-color: #757584;
-             background: #eee;
-             content: '\2714';
-         }
-        }
+    &:checked + .chb-label {
+      &:before {
+         border-color: #757584;
+         background: #eee;
+         content: '\2714';
+      }
+    }
+
+    &:focus + .chb-label {
+      &:before {
+        border: 1px solid #7fadd4;
+      }
+    }
 }
 
 input[type="radio"].u-radio {
