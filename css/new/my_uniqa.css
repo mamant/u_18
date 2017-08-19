@@ -36,13 +36,17 @@ span.account-type.selected {
 
 }
 
-
-
 img {max-width: 100%;}
 
 .icon {
   display: inline-block;
   background-image: url('../css/sprites/sprite-uniqa.png');
+}
+
+.abs-icn {
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .my-uniqa-title {
@@ -211,6 +215,10 @@ img {max-width: 100%;}
 
 .error-color {
   color: #f00;
+}
+
+.top-gutter-header {
+	margin-top: 10px;
 }
 
 /*New login deck*/
