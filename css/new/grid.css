@@ -596,6 +596,9 @@
 .main-content-area .flx-row + .flx-row {
     margin-top: 20px;
 }
+.text-align-right {
+  text-align: right;
+}
 
 @media screen and (max-width: 680px) {
     .hidden-xs {
@@ -660,7 +663,6 @@
       display: none;
   }
 
-  .u-list__header { display: none;}
 
   .u-list__line,
   .u-list .state {
@@ -681,8 +683,4 @@
     padding-left: 30px;
     padding-right: 30px;
   }
-}
-
-.text-align-right {
-  text-align: right;
 }
