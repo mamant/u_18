@@ -228,6 +228,7 @@ img {max-width: 100%;}
   min-height: calc(100vh - 82px);
   position: relative;
   margin: -25px -10px;
+	height: 100%;
 
   &__link:link {
     color: #005ca9;
@@ -263,9 +264,24 @@ img {max-width: 100%;}
   }
 }
 
-@media screen and (max-width: 480px) {
-  .login-deck {
-    padding-top: 50px;
+@media screen and (max-height: 600px) {
+	.login-deck {
+    padding: 50px 30px;
+		background: none;
+  }
+	.login-deck__modal {
+    border-radius: 0;
+    position: static;
+    width: 100%;
+    transform: none;
+    padding: 30px 10px 20px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+	.login-deck {
+    padding: 50px 30px;
+		background: none;
   }
 
   .login-deck__modal {

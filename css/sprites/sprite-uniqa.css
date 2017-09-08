@@ -36,19 +36,19 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-file-pdf {
   background-image: url(sprite-uniqa.png);
-  background-position: -78px -53px;
+  background-position: -78px -54px;
   width: 16px;
   height: 16px;
 }
 .icon-green-bell {
   background-image: url(sprite-uniqa.png);
-  background-position: -78px -21px;
+  background-position: -78px -22px;
   width: 18px;
   height: 16px;
 }
 .icon-important {
   background-image: url(sprite-uniqa.png);
-  background-position: -78px -37px;
+  background-position: -78px -38px;
   width: 16px;
   height: 16px;
 }
@@ -98,7 +98,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   background-image: url(sprite-uniqa.png);
   background-position: -78px 0px;
   width: 18px;
-  height: 21px;
+  height: 22px;
 }
 .icon-user-login {
   background-image: url(sprite-uniqa.png);
