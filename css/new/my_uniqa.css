@@ -292,3 +292,21 @@ img {max-width: 100%;}
     padding: 30px 10px 20px;
   }
 }
+
+@media only screen and (max-width: 1200px) and (min-width: 1025px) {
+	.form_block_down {
+		right: 10px;
+	}
+
+	header nav ul.right-menu a.first,
+	span.first {
+		margin-left: 65px;
+	}
+
+	a.menu_green_button {
+		max-width: 94px;
+		line-height: 20px !important;
+		padding-top: 5px !important;
+		margin-left: 0 !important;
+	}
+}
