@@ -592,6 +592,11 @@ input[type="radio"].u-radio {
   &.is-open .btn-dropdown {
     display: block;
   }
+
+  &.to-top .btn-dropdown {
+    top: auto;
+    bottom: 40px;
+  }
 }
 
 .btn-dropdown  {
