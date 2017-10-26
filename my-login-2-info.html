@@ -601,6 +601,10 @@
         $('.' + modal).css({'z-index': '100'}).toggle();
     }
 
+    $('.toggle-btn-dd').on('click', function(event) {
+      $(event.target).closest('.btn-dropdown-container').toggleClass('is-open');
+    });
+
 </script>
 
 </body>

@@ -576,7 +576,18 @@
 </div>
 
 <div class="u-submit-row">
-    <button type="submit" class="u-btn primary">Придбати договiр</button>
+    <div class="btn-dropdown-container">
+      <button type="submit" class="u-btn primary toggle-btn-dd">Придбати договiр</button>
+      <div class="btn-dropdown">
+        <ul>
+          <li><a class="arrow blue" href="http://www.uniqa.ua"><i class="size16"></i> Туристичне страхування</a></li>
+          <li><a class="arrow blue" href="http://www.uniqa.ua"><i class="size16"></i> Атоцивілка (ОСАГО)</a></li>
+          <li><a class="arrow blue" href="http://www.uniqa.ua"><i class="size16"></i> Добровільна автоцивілка</a></li>
+          <li><a class="arrow blue" href="http://www.uniqa.ua"><i class="size16"></i> Страхування квартири</a></li>
+          <li><a class="arrow blue" href="http://www.uniqa.ua"><i class="size16"></i> Відповідальність власників житла</a></li>
+        </ul>
+      </div>
+    </div>
 </div>
 
             </div>
@@ -729,6 +740,10 @@
     function showMyModal(modal) {
         $('.' + modal).css({'z-index': '100'}).toggle();
     }
+
+    $('.toggle-btn-dd').on('click', function(event) {
+      $(event.target).closest('.btn-dropdown-container').toggleClass('is-open');
+    });
 
 </script>
 
