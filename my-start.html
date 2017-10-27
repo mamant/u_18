@@ -631,6 +631,10 @@
       dropdownEL.height() >= window.scrollY && container.addClass('to-top');
     });
 
+    $('.btn-dropdown-overlay').on('click', function (e) {
+      $(e.target).closest('.btn-dropdown-container').removeClass('is-open');
+    });
+
 </script>
 
 </body>
