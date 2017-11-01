@@ -1165,6 +1165,7 @@ span.content.agent.without_margin {
 	& a,
 	& a.tel_button {
 		color: #fff;
+		text-decoration: none;
 	}
 }
 
