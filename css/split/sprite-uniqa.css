@@ -18,37 +18,37 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-black-bell {
   background-image: url(sprite-uniqa.png);
-  background-position: -50px -52px;
+  background-position: -23px -52px;
   width: 14px;
   height: 16px;
 }
 .icon-email {
   background-image: url(sprite-uniqa.png);
-  background-position: -78px 0px;
+  background-position: -53px -52px;
   width: 16px;
   height: 12px;
 }
 .icon-envelop {
   background-image: url(sprite-uniqa.png);
-  background-position: -78px -12px;
+  background-position: -37px -52px;
   width: 16px;
   height: 12px;
 }
 .icon-file-pdf {
   background-image: url(sprite-uniqa.png);
-  background-position: -18px -52px;
+  background-position: -78px -54px;
   width: 16px;
   height: 16px;
 }
 .icon-green-bell {
   background-image: url(sprite-uniqa.png);
-  background-position: 0px -52px;
+  background-position: -78px -22px;
   width: 18px;
   height: 16px;
 }
 .icon-important {
   background-image: url(sprite-uniqa.png);
-  background-position: -34px -52px;
+  background-position: -78px -38px;
   width: 16px;
   height: 16px;
 }
@@ -72,7 +72,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-logout {
   background-image: url(sprite-uniqa.png);
-  background-position: -78px -50px;
+  background-position: -96px 0px;
   width: 11px;
   height: 14px;
 }
@@ -94,21 +94,33 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 22px;
   height: 22px;
 }
+.icon-user-login-header {
+  background-image: url(sprite-uniqa.png);
+  background-position: -78px 0px;
+  width: 18px;
+  height: 22px;
+}
 .icon-user-login {
   background-image: url(sprite-uniqa.png);
-  background-position: -64px -52px;
+  background-position: -25px -71px;
   width: 12px;
   height: 12px;
 }
+.icon-user-registration-header {
+  background-image: url(sprite-uniqa.png);
+  background-position: 0px -52px;
+  width: 23px;
+  height: 19px;
+}
 .icon-user-registration {
   background-image: url(sprite-uniqa.png);
-  background-position: -78px -37px;
+  background-position: -13px -71px;
   width: 12px;
   height: 13px;
 }
 .icon-user-small {
   background-image: url(sprite-uniqa.png);
-  background-position: -78px -24px;
+  background-position: 0px -71px;
   width: 13px;
   height: 13px;
 }

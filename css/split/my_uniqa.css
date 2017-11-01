@@ -1,10 +1,45 @@
 /*Variables*/
 
+
+a.account-type:link, a.account-type:visited, span.account-type {
+	background: #7fadd4;
+	color: #fff;
+	display: block;
+	float: left;
+	height: 28px;
+	line-height: 28px;
+	margin-right: 2px;
+	padding: 0 22px;
+	text-decoration: none;
+	font-size: 0.929em;
+	font-style: normal;
+
+	background: #fff;
+	color: #b2b2b2;
+	padding-left: 0;
+}
+
+a.account-type:hover, a.account-type.selected, span.account-type:hover, span.account-type.selected {
+	background: #005ca9;
+	font-size: 0.929em;
+	font-style: normal;
+
+	background: #fff;
+	color: #0059ab;
+
+}
+
 img {max-width: 100%;}
 
 .icon {
   display: inline-block;
   background-image: url('../css/sprites/sprite-uniqa.png');
+}
+
+.abs-icn {
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .my-uniqa-title {
@@ -17,13 +52,40 @@ img {max-width: 100%;}
 }
 
 /* Personal details widget */
-.my-uniqa-personal-details h4 {margin-bottom: 15px;}
-.my-uniqa-personal-details a.my-uniqa-personal-details__link {display: block;margin-bottom: 5px;font-weight: bold;text-decoration: none;color: #fff}
-.my-uniqa-personal-details a.my-uniqa-personal-details__link:hover {color: #fff;text-decoration: underline;}
-.my-uniqa-personal-details a.my-uniqa-personal-details__link:before {display: block;float: left;content: '›';font-size: 18px;line-height: 16px;margin-right: 5px;font-style: normal;}
-.my-uniqa-personal-details [class ^="icn-"] {float: left;margin: 0 10px 0 0;}
-.my-uniqa-personal-details__info {margin-bottom: 15px;overflow: hidden;}
-.my-uniqa-personal-details__bottom {margin-top: 50px;}
+.my-uniqa-personal-details h4 {
+	margin-bottom: 15px;
+}
+.my-uniqa-personal-details a.my-uniqa-personal-details__link {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff
+}
+.my-uniqa-personal-details a.my-uniqa-personal-details__link:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+.my-uniqa-personal-details a.my-uniqa-personal-details__link:before {
+	display: block;
+	float: left;
+	content: '›';
+	font-size: 18px;
+	line-height: 16px;
+	margin-right: 5px;
+	font-style: normal;
+}
+.my-uniqa-personal-details [class ^="icn-"] {
+	float: left;
+	margin: 0 10px 0 0;
+}
+.my-uniqa-personal-details__info {
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+.my-uniqa-personal-details__bottom {
+	margin-top: 50px;
+}
 
 .address-text {
   float: left;
@@ -34,17 +96,41 @@ img {max-width: 100%;}
   color: #fff
 }
 
-.my-agent-name {font-style: italic;margin-bottom: 10px;font-size: 18px;}
+.my-agent-name {
+	font-style: italic;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
 
-.my-agent-position {margin-bottom: 40px;}
+.my-agent-position {
+	margin-bottom: 40px;
+}
 
-.my-agent-title {overflow: hidden;margin-bottom: 30px;font-size: 22px;}
+.my-agent-title {
+	overflow: hidden;
+	margin-bottom: 30px;
+	font-size: 22px;
+}
 
-.my-agent-title__left {display: table-cell;width: 70%;height: 60px;vertical-align: middle;}
+.my-agent-title__left {
+	display: table-cell;
+	width: 70%;
+	height: 60px;
+	vertical-align: middle;
+}
 
-.my-agent-title__right {display: table-cell;width: 30%;height: 100px;overflow: hidden;position: relative;}
+.my-agent-title__right {
+	display: table-cell;
+	width: 30%;
+	height: 100px;
+	overflow: hidden;
+	position: relative;
+}
 
-.my-agent-title__right img {right: 0 !important;position: static !important;}
+.my-agent-title__right img {
+	right: 0 !important;
+	position: static !important;
+}
 
 /*Personal header*/
 .notification-counter {
@@ -59,19 +145,35 @@ img {max-width: 100%;}
 
 .personal-header {
   position: absolute;
-	top: 8px;
-	right: 115px
+	top: 18px;
+	right: 140px
 }
 
-.personal-header__item {float: left;margin-right: 15px;line-height: 12px;position: relative;}
+.personal-header__item {
+	float: left;
+	margin-right: 15px;
+	line-height: 12px;
+	position: relative;
+}
 
-.personal-header [class *="icon-"] {margin-right: 5px;float: left;}
+.personal-header [class *="icon-"] {
+	margin-right: 5px;
+	float: left;
+}
 
-.personal-header [class *="icon-envelop"] {margin-top: 2px;margin-right: 5px;float: left;}
+.personal-header [class *="icon-envelop"] {
+	margin-top: 2px;
+	margin-right: 5px;
+	float: left;
+}
 
-.personal-header a {text-decoration: none;}
+.personal-header a {
+	text-decoration: none;
+}
 
-.personal-header:last-of-type {margin-right: 0;}
+.personal-header:last-of-type {
+	margin-right: 0;
+}
 
 .register-form select {
   min-width: 100%;
@@ -102,24 +204,68 @@ img {max-width: 100%;}
   color: #f00;
 }
 
+.top-gutter-header {
+	margin-top: 40px;
+}
+
 /*New login deck*/
 .login-deck {
   background: url(../images/registration_bg.jpg) no-repeat 0 0;
   background-size: cover;
   min-height: calc(100vh - 82px);
   position: relative;
-  margin: -25px -10px
+  margin: -25px -10px;
+	height: 100%
 }
-.login-deck__link:link {color: #005ca9;display: block;}
-.login-deck__link:link + .login-deck__link:link {margin-top: 15px;}
-.login-deck__link:link:hover {color: #03355f;}
-.login-deck__modal {border-radius: 18px;background-color: #fff;width: 550px;padding: 50px 50px 30px;box-sizing: border-box;position: absolute;top: 50%;left: 50%;-webkit-transform: translate(-50%, -45%);transform: translate(-50%, -45%);}
-.login-deck__modal h1 {padding: 0;text-align: left;}
-.login-deck__modal .u-input {height: 52px;}
+.login-deck__link:link {
+	color: #005ca9;
+	display: block;
+}
+.login-deck__link:link + .login-deck__link:link {
+	margin-top: 15px;
+}
+.login-deck__link:link:hover {
+	color: #03355f;
+}
+.login-deck__modal {
+	border-radius: 18px;
+	background-color: #fff;
+	width: 550px;
+	padding: 50px 50px 30px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -45%);
+	        transform: translate(-50%, -45%);
+}
+.login-deck__modal h1 {
+	padding: 0;
+	text-align: left;
+}
+.login-deck__modal .u-input {
+	height: 52px;
+}
 
-@media screen and (max-width: 480px) {
-  .login-deck {
-    padding-top: 50px;
+@media screen and (max-height: 600px) {
+	.login-deck {
+    padding: 50px 30px;
+		background: none;
+  }
+	.login-deck__modal {
+    border-radius: 0;
+    position: static;
+    width: 100%;
+    -webkit-transform: none;
+            transform: none;
+    padding: 30px 10px 20px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+	.login-deck {
+    padding: 50px 30px;
+		background: none;
   }
 
   .login-deck__modal {
@@ -130,4 +276,21 @@ img {max-width: 100%;}
             transform: none;
     padding: 30px 10px 20px;
   }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1025px) {
+	.form_block_down {
+		right: 10px;
+	}
+
+	header nav ul.right-menu a.first, span.first {
+		margin-left: 65px;
+	}
+
+	a.menu_green_button {
+		max-width: 94px;
+		line-height: 20px !important;
+		padding-top: 5px !important;
+		margin-left: 0 !important;
+	}
 }

@@ -1161,6 +1161,11 @@ span.content.agent.without_margin {
 
 .department_wrap.contact-box .content {
 	height: auto;
+
+	& a,
+	& a.tel_button {
+		color: #fff;
+	}
 }
 
 .department_wrap a.call-btn:hover,

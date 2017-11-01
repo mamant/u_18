@@ -17,6 +17,26 @@ white-space: nowrap;
 -ms-flex-pack: distribute;
     justify-content: space-around;
 }
+.u-list__header .is--active {
+color: #333;
+cursor: pointer;
+}
+.u-list__header .is--active:after {
+display: inline-block;
+content: '\2023';
+margin-left: 5px;
+font-size: 28px;
+line-height: 12px;
+vertical-align: bottom;
+}
+.u-list__header .is--up:after {
+-webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+}
+.u-list__header .is--down:after {
+-webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+}
 .u-list__line {
 border: 1px solid #e1e1e1;
 background: #f4f4f4;

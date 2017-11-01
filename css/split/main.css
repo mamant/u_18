@@ -922,6 +922,10 @@ a.account-type:link, a.account-type:visited, span.account-type {
 	font-style: normal;
 }
 
+a.account-type + a.account-type {
+	padding: 0
+}
+
 a.account-type:hover, a.account-type.selected, span.account-type:hover, span.account-type.selected {
 	background: #005ca9;
 	font-size: 0.929em;
@@ -1378,8 +1382,9 @@ header nav ul.right-menu a.first, span.first {
 }
 
 header nav ul li {
-	display: inline-block;
+	display: block;
 	position: relative;
+	float: left;
 }
 
 header nav ul li > a:link, header nav ul li > span, header nav ul li > a:visited, ul.mobile-nav li > a:link, ul.mobile-nav li > a:visited {
@@ -1569,7 +1574,9 @@ header {
 }
 
 .section.top-links {
-	height: 30px;
+  height: 50px;
+  padding-top: 12px;
+  box-sizing: border-box;
 }
 
 .headers {
@@ -2813,7 +2820,7 @@ nav.form_nav ul li.active {
 	max-width: 1600px;
 	min-width: 320px;
 	padding: 0 30px;
-	width: 87%;
+	width: 92%;
 }
 
 .tip {
@@ -4808,7 +4815,7 @@ h2.ex-h-l {
 		display: block;
 		height: auto;
 		line-height: normal;
-		margin-top: 44px;
+		margin-top: 12px;
 		padding: 0;
 		position: absolute;
 		right: 20px;
@@ -5982,10 +5989,11 @@ a.menu_green_button {
 	line-height: 18px !important;
 	height: 50px !important;
 	opacity: 1;
-	padding: 16px 10px 9px !important;
+	padding: 16px 11px 9px !important;
 	text-decoration: none;
 	text-shadow: 0 1px rgba(0, 0, 0, .1);
 	margin-left: 5px !important;
+	box-sizing: border-box;
 
 	padding: 0px 10px !important;
 	line-height: 50px !important;

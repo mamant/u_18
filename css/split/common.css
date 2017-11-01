@@ -1092,7 +1092,11 @@ span.content.agent.without_margin {
 }
 
 .department_wrap.contact-box .content {
-	height: auto;
+	height: auto
+}
+
+.department_wrap.contact-box .content a, .department_wrap.contact-box .content a.tel_button {
+	color: #fff;
 }
 
 .department_wrap a.call-btn:hover, .department_wrap a.call-btn:link, .department_wrap a.call-btn:visited {
@@ -2381,7 +2385,7 @@ h4 {
 
 .languages-header {
 	position: absolute;
-	top: 3px;
+	top: 12px;
 	right: 60px;
 }
 

@@ -1,9 +1,10 @@
-.widget-wrapper {
+  .widget-wrapper {
   padding: 15px;
 }
 
+
 .widget-box {
-    min-height: 340px;
+    min-height: 338px;
     box-sizing: border-box;
     position: relative;
     background-size: cover;
@@ -12,10 +13,12 @@
     border: 10px solid #fff;
 }
 
+
 .widget-box a {
   color: #fff;
   font-style: normal;
 }
+
 
 .widget-box .identify__title {
   margin: 15px 0 40px;
@@ -24,6 +27,7 @@
   font-size: 20px;
   position: relative
 }
+
 
 .widget-box .identify__title:after {
   content: '';
@@ -36,29 +40,31 @@
   margin-left: -20%;
 }
 
-.widget-box.second-line {
-  min-height: 337px;
-}
 
 .widget-box.is--mutted {}
+
 
 .widget-box.is--mutted:before {
   background: rgba(90, 94, 99, .6);
 }
 
+
 .widget-box.is--mutted .widget-box__title {
   background: rgba(68, 75, 82, .5);
 }
+
 
 .widget-box.is--mutted:hover .widget-box__title {
   background: rgba(68, 75, 82, .5);
   color: #fff;
 }
 
+
 .widget-box:hover .widget-box__title {
   background: rgba(1, 84, 162, .8);
   color: #fff;
 }
+
 
 .widget-box__title {
   background: rgba(1, 84, 162, .5);
@@ -77,6 +83,7 @@
   font-style: normal;
 }
 
+
 .widget-box:before {
   content: '';
   background: rgba(2, 36, 65, .4);
@@ -87,22 +94,27 @@
   width: 100%;
 }
 
+
 .widget-box.ins {
   background-image: url(../images/insurance-bg.jpg);
 }
 
+
 .widget-box.docs {
   background-image: url(../images/documents-bg.jpg);
 }
+
 
 .widget-box.identify {
   background: #00ba6f;
   color: #fff;
 }
 
+
 .widget-box.identify:before {
   display: none;
 }
+
 
 .widget-box .u-fields {
   margin-left: 16px;
@@ -110,6 +122,7 @@
   margin-right: 16px;
   margin-right: 1rem;
 }
+
 
 .widget-box .trans {
   background: transparent;
@@ -120,6 +133,7 @@
   font-style: normal;
   color: #fff;
 }
+
 
 .widget-box .trans:hover {
   background: #fff;
@@ -296,11 +310,11 @@ a.widget-blue-box__lst-item:hover {
 
 /*Needed for start page*/
 
-.personal-header.login-deck {
+.personal-header.login-deck--header {
   right: 150px;
 }
 
-.login-deck a.login-links {
+.login-deck--header a.login-links {
     color: #005ca9;
     text-decoration: underline;
     text-transform: uppercase;
