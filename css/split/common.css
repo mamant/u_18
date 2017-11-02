@@ -1097,6 +1097,7 @@ span.content.agent.without_margin {
 
 .department_wrap.contact-box .content a, .department_wrap.contact-box .content a.tel_button {
 	color: #fff;
+	text-decoration: none;
 }
 
 .department_wrap a.call-btn:hover, .department_wrap a.call-btn:link, .department_wrap a.call-btn:visited {
