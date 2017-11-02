@@ -294,7 +294,14 @@ input[type="radio"].u-radio {
          left: 4px;
      }
     }
+}
 
+.u-list__line input[type=radio].u-radio+label {
+  margin-right: 0;
+  padding-left: 24px;
+  display: block;
+  text-align: left;
+  white-space: nowrap;
 }
 
 .u-textarea {

@@ -258,7 +258,6 @@ input[type=checkbox].chb-custom:focus + .chb-label:before {
 input[type="radio"].u-radio {
     position: absolute;
     left: -9999px
-
 }
 
 input[type="radio"].u-radio + label {
@@ -297,6 +296,14 @@ input[type="radio"].u-radio:checked + label:after {
     line-height: 10px;
     top: 12px;
     left: 4px;
+}
+
+.u-list__line input[type=radio].u-radio+label {
+  margin-right: 0;
+  padding-left: 24px;
+  display: block;
+  text-align: left;
+  white-space: nowrap;
 }
 
 .u-textarea {
