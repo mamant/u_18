@@ -264,6 +264,19 @@ a.widget-blue-box__lst-item {
         right: 5%;
         padding: 25px;
         background: rgba(255,255,255,.8);
+
+        &-close {
+          position: absolute;
+          right: 10px;
+          top: 2px;
+          font-size: 1.5rem;
+          cursor: pointer;
+          transition: transform 200ms ease-out;
+
+          &:hover{
+            transform: scale(1.3);
+          }
+        }
     }
 
     &__title {
@@ -277,6 +290,13 @@ a.widget-blue-box__lst-item {
 
     &__action {
         text-align: right;
+
+        & .u-btn {
+          padding: 0 8px;
+        }
+        & .u-btn + .u-btn {
+          margin-left: 8px;
+        }
     }
 }
 
