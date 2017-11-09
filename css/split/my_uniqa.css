@@ -109,25 +109,27 @@ img {max-width: 100%;}
 .my-agent-title {
 	overflow: hidden;
 	margin-bottom: 30px;
-	font-size: 22px;
 }
 
-.my-agent-title__left {
+.my-agent-title__agent {
 	display: table-cell;
-	width: 70%;
+	width: 55%;
 	height: 60px;
-	vertical-align: middle;
+	vertical-align: top;
+	text-align: left;
+	font-size: 20px;
+	padding-left: 10px;
 }
 
-.my-agent-title__right {
+.my-agent-title__agent-img {
 	display: table-cell;
-	width: 30%;
+	width: 45%;
 	height: 100px;
 	overflow: hidden;
 	position: relative;
 }
 
-.my-agent-title__right img {
+.my-agent-title__agent-img img {
 	right: 0 !important;
 	position: static !important;
 }

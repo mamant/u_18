@@ -123,18 +123,20 @@ img {max-width: 100%;}
   &-title {
     overflow: hidden;
     margin-bottom: 30px;
-    font-size: 22px;
 
-    &__left {
+    &__agent {
       display: table-cell;
-      width: 70%;
+      width: 55%;
       height: 60px;
-      vertical-align: middle;
+      vertical-align: top;
+			text-align: left;
+			font-size: 20px;
+			padding-left: 10px;
     }
 
-    &__right {
+    &__agent-img {
       display: table-cell;
-      width: 30%;
+      width: 45%;
       height: 100px;
       overflow: hidden;
       position: relative;
