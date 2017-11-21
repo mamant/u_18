@@ -319,6 +319,7 @@ a.widget-blue-box__lst-item:hover {
 
 .marketing-add__action .u-btn {
   padding: 0 8px;
+  margin-bottom: 8px;
 }
 
 .marketing-add__action .u-btn + .u-btn {

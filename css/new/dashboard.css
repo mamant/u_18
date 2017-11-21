@@ -293,6 +293,7 @@ a.widget-blue-box__lst-item {
 
         & .u-btn {
           padding: 0 8px;
+          margin-bottom: 8px;
         }
         & .u-btn + .u-btn {
           margin-left: 8px;

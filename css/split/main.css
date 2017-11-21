@@ -1449,6 +1449,7 @@ header nav ul li:hover .submenu {
 	display: block;
 	position: relative;
 	padding-left: 15px;
+	float: none;
 }
 
 .submenu a:link, .submenu span, .submenu a:visited {
