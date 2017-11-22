@@ -16,39 +16,37 @@
 
 {% include "components/header.njk" %}
 
-<div class="container">
-    <div class="login-deck">
-      <div class="login-deck__modal">
-          <form action="" name="user-registration">
-              <div class="u-fields">
-                <div class="column small-12">
-                  <h1>Вхід в кабінет</h1>
-                </div>
+<div class="login-deck">
+  <div class="login-deck__modal">
+      <form action="" name="user-registration">
+          <div class="u-fields">
+            <div class="column small-12">
+              <h1>Вхід в кабінет</h1>
+            </div>
+          </div>
+          <div class="u-fields flx-row align-middle">
+              <div class="column small-11">
+                  <input type="email" class="u-input" name="user-email" id="user-email" placeholder="Логiн">
               </div>
-              <div class="u-fields flx-row align-middle">
-                  <div class="column small-11">
-                      <input type="email" class="u-input" name="user-email" id="user-email" placeholder="Логiн">
-                  </div>
-                  <div class="column small-1"><em class="icon icon-state-def"></em></div>
+              <div class="column small-1"><em class="icon icon-state-def"></em></div>
+          </div>
+          <div class="u-fields flx-row align-middle">
+              <div class="column small-11">
+                  <input type="password" class="u-input" name="user-password" id="user-password" placeholder="Пароль">
               </div>
-              <div class="u-fields flx-row align-middle">
-                  <div class="column small-11">
-                      <input type="password" class="u-input" name="user-password" id="user-password" placeholder="Пароль">
-                  </div>
-                  <div class="column small-1"><em class="icon icon-state-def"></em></div>
-              </div>
-              <div class="u-fields flx-row">
-                <div class="column small-6">
-                    <a href="my-registration-2.html" class="login-deck__link">Реєстрація</a>
-                    <a href="my-forgot-password.html" class="login-deck__link">Забули пароль?</a>
-                </div>
-                <div class="column small-6 text-align-right">
-                    <a href="index.html" class="u-btn primary is--large">Вхiд</a>
-                </div>
-              </div>
-          </form>
-      </div>
-    </div>
+              <div class="column small-1"><em class="icon icon-state-def"></em></div>
+          </div>
+          <div class="u-fields flx-row">
+            <div class="column small-6">
+                <a href="my-registration-2.html" class="login-deck__link">Реєстрація</a>
+                <a href="my-forgot-password.html" class="login-deck__link">Забули пароль?</a>
+            </div>
+            <div class="column small-6 text-align-right">
+                <a href="index.html" class="u-btn primary is--large">Вхiд</a>
+            </div>
+          </div>
+      </form>
+  </div>
 </div>
 
 {% include "components/footer.njk" %}
