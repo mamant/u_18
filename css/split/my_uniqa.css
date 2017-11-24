@@ -280,3 +280,8 @@ img {max-width: 100%;}
 		margin-left: 0 !important;
 	}
 }
+
+.submenu a.arrow .size16 {
+	height: 14px;
+	overflow: hidden;
+}
