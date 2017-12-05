@@ -18,37 +18,43 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-black-bell {
   background-image: url(sprite-uniqa.png);
-  background-position: -23px -52px;
+  background-position: -55px -52px;
   width: 14px;
   height: 16px;
 }
+.icon-close-mobile {
+  background-image: url(sprite-uniqa.png);
+  background-position: -78px -22px;
+  width: 18px;
+  height: 18px;
+}
 .icon-email {
   background-image: url(sprite-uniqa.png);
-  background-position: -53px -52px;
+  background-position: 0px -71px;
   width: 16px;
   height: 12px;
 }
 .icon-envelop {
   background-image: url(sprite-uniqa.png);
-  background-position: -37px -52px;
+  background-position: -78px -56px;
   width: 16px;
   height: 12px;
 }
 .icon-file-pdf {
   background-image: url(sprite-uniqa.png);
-  background-position: -78px -54px;
+  background-position: -23px -52px;
   width: 16px;
   height: 16px;
 }
 .icon-green-bell {
   background-image: url(sprite-uniqa.png);
-  background-position: -78px -22px;
+  background-position: -78px -40px;
   width: 18px;
   height: 16px;
 }
 .icon-important {
   background-image: url(sprite-uniqa.png);
-  background-position: -78px -38px;
+  background-position: -39px -52px;
   width: 16px;
   height: 16px;
 }
@@ -78,13 +84,13 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-state-def {
   background-image: url(sprite-uniqa.png);
-  background-position: -56px -22px;
+  background-position: -56px 0px;
   width: 22px;
   height: 22px;
 }
 .icon-state-error {
   background-image: url(sprite-uniqa.png);
-  background-position: -56px 0px;
+  background-position: -56px -22px;
   width: 22px;
   height: 22px;
 }
@@ -102,7 +108,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-user-login {
   background-image: url(sprite-uniqa.png);
-  background-position: -25px -71px;
+  background-position: -16px -71px;
   width: 12px;
   height: 12px;
 }
@@ -114,13 +120,13 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-user-registration {
   background-image: url(sprite-uniqa.png);
-  background-position: -13px -71px;
+  background-position: -13px -83px;
   width: 12px;
   height: 13px;
 }
 .icon-user-small {
   background-image: url(sprite-uniqa.png);
-  background-position: 0px -71px;
+  background-position: 0px -83px;
   width: 13px;
   height: 13px;
 }

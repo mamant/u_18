@@ -4816,7 +4816,7 @@ h2.ex-h-l {
 		display: block;
 		height: auto;
 		line-height: normal;
-		margin-top: 12px;
+		top: 20px;
 		padding: 0;
 		position: absolute;
 		right: 20px;
