@@ -106,7 +106,7 @@
   height: auto;
 }
 
-.u-btn {
+.u-btn, a.u-btn, button.u-btn {
     display: inline-block;
     box-sizing: border-box;
     color: #fff;
@@ -116,77 +116,80 @@
     border: none;
     text-decoration: none;
     font-style: normal;
-    letter-spacing: 0.8px;
-    letter-spacing: 0.05rem
+    font-family: Lato, sans-serif
 }
 
-.u-btn[disabled] {
+.u-btn[disabled], a.u-btn[disabled], button.u-btn[disabled] {
     opacity: .5;
     cursor: default;
 }
 
-.u-btn.primary {
+.u-btn.primary, a.u-btn.primary, button.u-btn.primary {
     background: #00ba6f;
     color: #fff;
     font-style: normal;
 }
 
-.u-btn.primary:hover {
+.u-btn.primary:hover, a.u-btn.primary:hover, button.u-btn.primary:hover {
     background: #03a765;
 }
 
-.u-btn.secondary {
+.u-btn.secondary, a.u-btn.secondary, button.u-btn.secondary {
     background: #878a89;
     color: #fff;
     font-style: normal;
 }
 
-.u-btn.secondary:hover {
+.u-btn.secondary:hover, a.u-btn.secondary:hover, button.u-btn.secondary:hover {
     background: #767877;
 }
 
-.u-btn.small-link {
+.u-btn.small-link, a.u-btn.small-link, button.u-btn.small-link {
     font-size: 14.4px;
     font-size: .9rem;
     padding: 0 5px;
     font-style: normal;
 }
 
-.u-btn.delete {
+.u-btn.delete, a.u-btn.delete, button.u-btn.delete {
     color: #fff;
     background: #f94848;
 }
 
-.u-btn.delete:hover {
+.u-btn.delete:hover, a.u-btn.delete:hover, button.u-btn.delete:hover {
     background: #dc3e3e;
 }
 
-.u-btn.big, .u-btn.is--big {
+.u-btn.big, .u-btn.is--big, a.u-btn.big, a.u-btn.is--big, button.u-btn.big, button.u-btn.is--big {
     line-height: 40px;
     padding: 0 20px;
     font-size: 19.2px;
     font-size: 1.2rem;
 }
 
-.u-btn.is--large {
+.u-btn.is--large, a.u-btn.is--large, button.u-btn.is--large {
     line-height: 52px;
     padding: 0 30px;
     font-size: 24px;
     font-size: 1.5rem;
 }
 
-.u-btn.small {
+.u-btn.small, a.u-btn.small, button.u-btn.small {
     font-size: 14.4px;
     font-size: .9rem;
     padding: 0 10px;
     line-height: 24px;
 }
 
+.btns-list .u-btn {
+  border-radius: 0;
+}
+
 .u-submit-row {
     background: #f4f4f4;
     padding: 15px;
     text-align: right;
-    margin: 80px 0;
+    margin: 40px 0;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
