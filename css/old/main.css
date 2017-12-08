@@ -78,7 +78,6 @@ a.lang:visited,
 a.close:link,
 a.close:visited,
 a.close:hover,
-.main-search input[type=submit],
 .HomeNlBox input[type=submit] {
 	background: url("../images/sprite.png") no-repeat;
 	background-size: 1925px auto;
@@ -4402,7 +4401,6 @@ textarea[readonly=readonly]:focus {
 	right: 0;
 	top: 0;
 	width: 25px;
-	background: #fff -350px -16px;
 }
 
 .HomeNlBox {

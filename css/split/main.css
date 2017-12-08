@@ -53,7 +53,7 @@ textarea {
 	padding: 0.2em 0;
 }
 
-i, .filters.search input[type=submit], a.call-btn div:before, a.homebtn div:before, a.flatbtn div:before, a.claim-btn.mainColor div:before, .size16.edit, a.social-icon:link, a.social-icon:visited, a.lang:link, a.lang:visited, #carousel .directions a:link, #carousel .directions a:visited, #carousel .directions a:hover, .tip, .label:after, a.close:link, a.close:visited, a.close:hover, .main-search input[type=submit], .HomeNlBox input[type=submit] {
+i, .filters.search input[type=submit], a.call-btn div:before, a.homebtn div:before, a.flatbtn div:before, a.claim-btn.mainColor div:before, .size16.edit, a.social-icon:link, a.social-icon:visited, a.lang:link, a.lang:visited, #carousel .directions a:link, #carousel .directions a:visited, #carousel .directions a:hover, .tip, .label:after, a.close:link, a.close:visited, a.close:hover, .HomeNlBox input[type=submit] {
 	background: url("../images/sprite.png") no-repeat;
 	background-size: 1925px auto;
 }
@@ -4260,7 +4260,6 @@ input[readonly=readonly]:focus, textarea[readonly=readonly]:focus {
 	right: 0;
 	top: 0;
 	width: 25px;
-	background: #fff -350px -16px;
 }
 
 .HomeNlBox {
