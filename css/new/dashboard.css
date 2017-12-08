@@ -196,11 +196,11 @@
 
     &__lst-item {
       background: #22639d;
-      line-height: 40px;
       padding: 0 5px 0 0;
       letter-spacing: .05rem;
       font-size: 1.1rem;
       display: flex;
+      align-items: center;
       color: #fff;
       text-decoration: none;
       font-style: normal;

@@ -212,7 +212,6 @@
 
 .widget-blue-box__lst-item {
   background: #22639d;
-  line-height: 40px;
   padding: 0 5px 0 0;
   letter-spacing: 0.8px;
   letter-spacing: .05rem;
@@ -221,6 +220,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #fff;
   text-decoration: none;
   font-style: normal;
