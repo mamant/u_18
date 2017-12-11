@@ -65,6 +65,12 @@
     color: #282B34;
     box-sizing: border-box;
     outline: none;
+
+    &[disabled] {
+        opacity: .5;
+        cursor: default;
+        background: #eee;
+    }
 }
 
 .u-input {

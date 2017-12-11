@@ -64,7 +64,13 @@
     border: 1px solid #e1e1e1;
     color: #282B34;
     box-sizing: border-box;
-    outline: none;
+    outline: none
+}
+
+.u-select[disabled] {
+    opacity: .5;
+    cursor: default;
+    background: #eee;
 }
 
 .u-input, .u-textarea {

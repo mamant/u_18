@@ -4,6 +4,7 @@
   background-color: #f1f1f1;
   letter-spacing: 0.8px;
   letter-spacing: .05rem;
+  cursor: pointer;
   overflow: hidden
 }
 .inbox-folder.is-active {
@@ -47,6 +48,10 @@
   border-bottom: 1px solid #e1e1e1;
   color: #999;
   cursor: pointer
+}
+
+.inbox-list__line.not-read {
+  font-weight: bold
 }
 
 .inbox-list__line .inbox--open {

@@ -3,6 +3,7 @@
   padding: 20px 15px;
   background-color: #f1f1f1;
   letter-spacing: .05rem;
+  cursor: pointer;
   overflow: hidden;
 
   &.is-active {
@@ -37,6 +38,10 @@
     border-bottom: 1px solid #e1e1e1;
     color: #999;
     cursor: pointer;
+
+    &.not-read {
+      font-weight: bold;
+    }
 
     & .inbox--open {
       padding: 15px;
