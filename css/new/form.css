@@ -108,7 +108,10 @@
   border: 1px solid #be001e;
 }
 
-.u-input + .error {
+.u-input + .error,
+.u-fields label.error,
+.u-fields span.error {
+  display: block;
   margin-top: 4px;
   color: #be001e;
   height: auto;

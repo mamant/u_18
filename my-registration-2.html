@@ -576,15 +576,20 @@
                 <div class="column small-1"><em class="icon icon-state-def"></em></div>
             </div>
             <div class="u-fields flx-row align-middle">
-                <div class="column small-11 has-hint">
-                    <input type="password" class="u-input" name="user-password" id="user-password" placeholder="Пароль">
-                    <div class="u-fields-hint">
-                      <ul>
-                        <li>Щонайменше 7 символiв</li>
-                        <li>Повинен мiстити принаймнi одну велику лiтеру</li>
-                        <li>Використовувати цифри та букви</li>
-                      </ul>
+                <div class="column small-11">
+                    <div class="has-hint">
+                      <input type="password" class="u-input input-validation-error" name="user-password" id="user-password" placeholder="Пароль">
+                      <div class="u-fields-hint">
+                        <ul>
+                          <li>Щонайменше 7 символiв</li>
+                          <li>Повинен мiстити принаймнi одну велику лiтеру</li>
+                          <li>Використовувати цифри та букви</li>
+                        </ul>
+                      </div>
                     </div>
+                    <span class="error" style="display: none;" data-valmsg-for="Password" data-valmsg-replace="true">
+                      Пароль не може бути меншим за 6 символів, та повинен включати як мінімум один символ верхнього регістру (лише латиницею) та одну цифру
+                    </span>
                 </div>
                 <div class="column small-1"><em class="icon icon-state-def"></em></div>
             </div>
