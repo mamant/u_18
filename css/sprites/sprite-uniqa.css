@@ -16,6 +16,12 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 // HTML
 <i class="icon icon-home"></i>
 */
+.icon-__user-small {
+  background-image: url(sprite-uniqa.png);
+  background-position: 0px -83px;
+  width: 13px;
+  height: 13px;
+}
 .icon-black-bell {
   background-image: url(sprite-uniqa.png);
   background-position: -55px -52px;
@@ -30,19 +36,19 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-email {
   background-image: url(sprite-uniqa.png);
-  background-position: 0px -71px;
+  background-position: -78px -56px;
   width: 16px;
   height: 12px;
 }
 .icon-envelop {
   background-image: url(sprite-uniqa.png);
-  background-position: -78px -56px;
+  background-position: 0px -71px;
   width: 16px;
   height: 12px;
 }
 .icon-file-pdf {
   background-image: url(sprite-uniqa.png);
-  background-position: -23px -52px;
+  background-position: -39px -52px;
   width: 16px;
   height: 16px;
 }
@@ -54,7 +60,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-important {
   background-image: url(sprite-uniqa.png);
-  background-position: -39px -52px;
+  background-position: -23px -52px;
   width: 16px;
   height: 16px;
 }
@@ -120,13 +126,13 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-user-registration {
   background-image: url(sprite-uniqa.png);
-  background-position: -13px -83px;
+  background-position: -26px -83px;
   width: 12px;
   height: 13px;
 }
 .icon-user-small {
   background-image: url(sprite-uniqa.png);
-  background-position: 0px -83px;
+  background-position: -13px -83px;
   width: 13px;
   height: 13px;
 }

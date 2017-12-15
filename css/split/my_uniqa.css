@@ -251,8 +251,12 @@ img {max-width: 100%;}
 @media screen and (max-width: 680px) {
 	.login-deck {
     padding: 50px 30px;
-		background: none;
+		background: none
   }
+	.login-deck .u-btn {
+		display: block;
+		text-align: center;
+	}
 
   .login-deck__modal {
     border-radius: 0;

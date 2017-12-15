@@ -1,3 +1,7 @@
+.visible-xs, .visible-md, .visible-lg {
+    display: none !important;
+}
+
 .container {
     max-width: 1600px;
     margin: 0 auto;
@@ -606,9 +610,17 @@
   text-align: right;
 }
 
+.text-align-center {
+  text-align: center;
+}
+
 @media screen and (max-width: 680px) {
     .hidden-xs {
-        display: none;
+        display: none !important;
+    }
+
+    .visible-xs {
+        display: block !important;
     }
 
     .column.u-field-state {
@@ -630,7 +642,7 @@
         margin: 30px 0;
     }
 
-    .widget-box {
+    .widget-box, .index-agent-margin {
         margin-bottom: 20px;
     }
 
@@ -665,9 +677,8 @@
 
 @media screen and (max-width: 768px) {
   .hidden-md {
-      display: none;
+      display: none !important;
   }
-
 
   .u-list__line, .u-list .state {
       text-align: center;

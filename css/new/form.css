@@ -1,5 +1,9 @@
 .u-fields {
     margin-bottom: 20px;
+
+    &--double {
+      margin: 40px 0;
+    }
 }
 
 .u-fields__separator {

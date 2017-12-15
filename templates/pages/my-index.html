@@ -34,6 +34,9 @@
                   <a href="my-insurances.html" class="columns small-12 medium-6 large-4 widget-box ins">
                     <div class="widget-box__title">Страховi випадки</div>
                   </a>
+                  <div class="columns small-12 visible-xs index-agent-margin">
+                    {% include "components/agent.njk" %}
+                  </div>
                   <div class="columns small-12 medium-12 large-4 widget-box identify my-uniqa-personal-details">
                       <div class="widget-wrapper">
                         <div class="identify__title">Персональнi даннi</div>
@@ -141,7 +144,7 @@
                           <div class="widget-blue-box__message">специфльні пропозіції для vip кліентів.</div>
                         </div>
                     </div>
-                    {% include "components/agent-index.njk" %}
+                    <div class="hidden-xs">{% include "components/agent-index.njk" %}</div>
                     <div class="column small-12 medium-4 large-12 widget-blue-box">
                       <div class="widget-wrapper">
                           <div class="widget-blue-box__header">Платежi онлайн</div>
