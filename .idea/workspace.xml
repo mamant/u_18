@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe598801-8f3b-4df4-9b71-9d023fd58325" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/my-uniqa/my-uniqa.js" afterPath="$PROJECT_DIR$/js/my-uniqa/my-uniqa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/uniqa.min.js" afterPath="$PROJECT_DIR$/js/uniqa.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-insurances-item.html" afterPath="$PROJECT_DIR$/my-insurances-item.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-registration-2.html" afterPath="$PROJECT_DIR$/my-registration-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/my-registration-2.html" afterPath="$PROJECT_DIR$/templates/pages/my-registration-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/sections/modal-request.njk" afterPath="$PROJECT_DIR$/templates/sections/modal-request.njk" />
-    </list>
+    <list default="true" id="fe598801-8f3b-4df4-9b71-9d023fd58325" name="Default" comment="" />
     <ignored path="u_18.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -73,8 +66,8 @@
       <file leaf-file-name="my-registration-2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/pages/my-registration-2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="35" column="162" selection-start-line="35" selection-start-column="162" selection-end-line="35" selection-end-column="162" />
+            <state relative-caret-position="475">
+              <caret line="52" column="97" selection-start-line="52" selection-start-column="97" selection-end-line="52" selection-end-column="97" />
               <folding />
             </state>
           </provider>
@@ -159,74 +152,7 @@
       <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="u_18" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="u_18" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="u_18" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="u_18" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="u_18" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="u_18" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="u_18" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="u_18" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="u_18" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
     </panes>
   </component>
@@ -317,12 +243,12 @@
       <workItem from="1511528433693" duration="2484000" />
       <workItem from="1512994386865" duration="935000" />
       <workItem from="1513075206284" duration="972000" />
-      <workItem from="1513598245039" duration="87000" />
+      <workItem from="1513598245039" duration="2052000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4478000" />
+    <option name="totallyTimeSpent" value="6443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1436" height="877" extended-state="6" />
@@ -546,8 +472,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/pages/my-registration-2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="35" column="162" selection-start-line="35" selection-start-column="162" selection-end-line="35" selection-end-column="162" />
+        <state relative-caret-position="475">
+          <caret line="52" column="97" selection-start-line="52" selection-start-column="97" selection-end-line="52" selection-end-column="97" />
           <folding />
         </state>
       </provider>
