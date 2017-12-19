@@ -273,6 +273,7 @@ img {max-width: 100%;}
 		& .u-btn {
 			display: block;
 			text-align: center;
+			width: 100%;
 		}
   }
 

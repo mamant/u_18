@@ -256,6 +256,7 @@ img {max-width: 100%;}
 	.login-deck .u-btn {
 		display: block;
 		text-align: center;
+		width: 100%;
 	}
 
   .login-deck__modal {
