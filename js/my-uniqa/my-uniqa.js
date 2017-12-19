@@ -23,9 +23,9 @@ $(function() {
 	});
 
 	$('.toggle-btn-dd').on('click', function (event) {
-		const toWindowBottom = window.screenY;
-		const dropdownEL = $(event.target).closest('.btn-dropdown-container').find('.btn-dropdown');
-		const container = $(event.target).closest('.btn-dropdown-container');
+		var toWindowBottom = window.screenY;
+		var dropdownEL = $(event.target).closest('.btn-dropdown-container').find('.btn-dropdown');
+		var container = $(event.target).closest('.btn-dropdown-container');
 		container.removeClass('to-top');
 		container.toggleClass('is-open');
 		dropdownEL.height() >= window.scrollY && container.addClass('to-top');
