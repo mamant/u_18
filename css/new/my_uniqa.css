@@ -160,9 +160,9 @@ img {max-width: 100%;}
 }
 
 .personal-header {
-  position: absolute;
+	position: absolute;
 	top: 18px;
-	right: 110px;
+	right: 12%;
 
   &__item {
     float: left;
