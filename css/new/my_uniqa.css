@@ -2,7 +2,6 @@
 $main-color: #005eab;
 $light-grey-color: #e1e1e1;
 
-
 a.account-type:link,
 a.account-type:visited,
 span.account-type {
@@ -163,7 +162,7 @@ img {max-width: 100%;}
 .personal-header {
   position: absolute;
 	top: 18px;
-	right: 140px;
+	right: 110px;
 
   &__item {
     float: left;
@@ -307,4 +306,15 @@ img {max-width: 100%;}
 .submenu a.arrow .size16 {
 	height: 14px;
 	overflow: hidden;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 780px) {
+    .section.top-links .account-type {
+        float: left;
+        width: 120px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
 }
