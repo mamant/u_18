@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe598801-8f3b-4df4-9b71-9d023fd58325" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/components/agent-index-logined.njk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-index.html" afterPath="$PROJECT_DIR$/my-index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/components/agent-index.njk" afterPath="$PROJECT_DIR$/templates/components/agent-index.njk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/my-index.html" afterPath="$PROJECT_DIR$/templates/pages/my-index.html" />
     </list>
     <ignored path="u_18.iws" />
@@ -27,7 +29,52 @@
     <favorites_list name="u_18" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="my-index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/pages/my-index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="689">
+              <caret line="146" column="62" selection-start-line="146" selection-start-column="62" selection-end-line="146" selection-end-column="62" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="agent-index-logined.njk" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/components/agent-index-logined.njk">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1615">
+              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="agent-index.njk" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/components/agent-index.njk">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="73" selection-start-line="0" selection-start-column="73" selection-end-line="0" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grid.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/new/grid.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="613" column="14" selection-start-line="613" selection-start-column="4" selection-end-line="613" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,11 +88,14 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/css/new/form.css" />
         <option value="$PROJECT_DIR$/css/new/inbox.css" />
-        <option value="$PROJECT_DIR$/css/new/grid.css" />
         <option value="$PROJECT_DIR$/templates/pages/my-registration-2.html" />
         <option value="$PROJECT_DIR$/js/my-uniqa/my-uniqa.js" />
-        <option value="$PROJECT_DIR$/templates/pages/my-index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/css/new/grid.css" />
+        <option value="$PROJECT_DIR$/templates/components/agent-index-2.njk" />
+        <option value="$PROJECT_DIR$/templates/components/agent-index.njk" />
+        <option value="$PROJECT_DIR$/my-index.html" />
+        <option value="$PROJECT_DIR$/templates/pages/my-index.html" />
       </list>
     </option>
   </component>
@@ -77,7 +127,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -95,6 +145,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -113,10 +165,58 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="u_18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="u_18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="u_18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="u_18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="u_18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="u_18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -127,7 +227,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="grid.css&#9;FILE&#9;file:///Users/mamant/work/fl/uniqa/u_18/css/new/grid.css" />
+    <property name="SearchEverywhereHistoryKey" value="gri&#9;FILE&#9;file:///Users/mamant/work/fl/uniqa/u_18/css/new/grid.css&#10;grid.css&#9;FILE&#9;file:///Users/mamant/work/fl/uniqa/u_18/css/new/grid.css" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -208,19 +308,20 @@
       <workItem from="1513075206284" duration="972000" />
       <workItem from="1513598245039" duration="2052000" />
       <workItem from="1513690253096" duration="853000" />
-      <workItem from="1519133488986" duration="372000" />
+      <workItem from="1519133488986" duration="491000" />
+      <workItem from="1520274137738" duration="321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7668000" />
+    <option name="totallyTimeSpent" value="8108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1436" height="877" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -259,7 +360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -275,7 +375,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -283,7 +382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12065">
           <caret line="635" column="38" selection-start-line="635" selection-start-column="37" selection-end-line="635" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -291,7 +389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1007">
           <caret line="53" column="55" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -307,7 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -323,7 +419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="34" column="20" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -331,7 +426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12065">
           <caret line="635" column="38" selection-start-line="635" selection-start-column="37" selection-end-line="635" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -339,7 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -355,7 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -371,7 +463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="34" column="20" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -379,7 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -395,7 +485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -476,15 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/new/grid.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12559">
-          <caret line="661" column="0" selection-start-line="661" selection-start-column="0" selection-end-line="661" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -492,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12065">
           <caret line="635" column="38" selection-start-line="635" selection-start-column="37" selection-end-line="635" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -500,7 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1007">
           <caret line="53" column="55" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -508,7 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -516,6 +593,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-133">
           <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="143" column="62" selection-start-line="143" selection-start-column="62" selection-end-line="143" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/new/grid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="613" column="14" selection-start-line="613" selection-start-column="4" selection-end-line="613" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/components/agent-index.njk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="73" selection-start-line="0" selection-start-column="73" selection-end-line="0" selection-end-column="73" />
           <folding />
         </state>
       </provider>
@@ -524,39 +630,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/components/agent-index-logined.njk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/pages/my-index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="689">
           <caret line="146" column="62" selection-start-line="146" selection-start-column="62" selection-end-line="146" selection-end-column="62" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="143" column="62" selection-start-line="143" selection-start-column="62" selection-end-line="143" selection-end-column="62" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
