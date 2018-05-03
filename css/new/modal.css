@@ -79,3 +79,9 @@
     position: absolute;
   }
 }
+
+@media only screen and (max-height: 767px) {
+    .modal {
+     position: absolute;
+  }
+}
