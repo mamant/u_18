@@ -255,6 +255,7 @@ background-color: #ccc;
   overflow-x: auto;
 }
 
+
 @media screen and (max-width: 480px) {
   .document-view__content.btns-list .u-btn {
     margin-bottom: 15px;
@@ -275,4 +276,64 @@ background-color: #ccc;
     margin-right: 5px;
     margin-bottom: 5px;
   }
+}
+
+/* step slider */
+
+.step-slider {
+  width: 100%;
+  list-style: none;
+  margin: 10px 0 20px;
+  padding: 0;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row nowrap;
+          flex-direction: row nowrap;
+  color: #999;
+  font-size: 11px;
+  position: relative
+}
+
+.step-slider::after {
+content: '';
+position: absolute;
+top: 10px;
+left: 10%;
+right: 10%;
+height: 6px;
+background: #f4f4f4;
+border: 1px solid #ececec;
+z-index: 0;
+}
+
+.step-slider li {
+-webkit-box-flex: 1;
+    -ms-flex: 1;
+        flex: 1;
+z-index: 2;
+}
+
+.step-slider li.is-active {
+color: #055ca9;
+cursor: pointer;
+}
+
+.step-slider li.is-active .step-slider__number {
+background: #055ca9;
+border-color: #055ca9;
+color: #fff;
+}
+
+.step-slider__number {
+display: inline-block;
+border-radius: 50%;
+padding: 5px 10px;
+margin-bottom: 5px;
+background: #f4f4f4;
+border: 1px solid #ececec;
+transition: background 100ms;
 }

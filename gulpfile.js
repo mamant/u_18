@@ -99,7 +99,7 @@ gulp.task('browserSync', function() {
     })
 });
 
-gulp.task('dev', ['sprites', 'js', 'css', 'views', 'browserSync'], function() {
+gulp.task('dev', ['sprites', 'js', 'css', 'views', 'browserSync', 'css-split'], function() {
     gulp.watch('./css/new/*', ['css', 'views', browserSync.reload]);
     gulp.watch('./css/old/*', ['css', browserSync.reload]);
     gulp.watch('./js/my-uniqa/*.js', ['js', browserSync.reload]);
