@@ -294,6 +294,17 @@ padding: 0 15px;
 
 /* step slider */
 
+.slider-line {
+  content: '';
+  position: absolute;
+  top: 10px;
+  height: 6px;
+  width: 50%;
+  border-color: #055ca9;
+  background: #055ca9;
+  z-index: 0;
+}
+
 .step-slider {
   width: 100%;
   list-style: none;
@@ -302,36 +313,59 @@ padding: 0 15px;
   text-align: center;
   display: flex;
   flex-direction: row nowrap;
-  color: #999;
+  color: #055ca9;
   font-size: 11px;
   position: relative;
-
-  &::after {
-    content: '';
-    position: absolute;
-    top: 10px;
-    left: 10%;
-    right: 10%;
-    height: 6px;
-    background: #f4f4f4;
-    border: 1px solid #ececec;
-    z-index: 0;
-  }
+  overflow: hidden;
 
   & li {
     flex: 1;
     z-index: 2;
+    position: relative;
+
+    &::after {
+      @extend .slider-line;
+     
+      left: 0;
+      right: -50%;
+      width: 50%;
+    }
+  
+    &::before {
+      @extend .slider-line;
+     
+      left: 50%;
+      right: 0;
+    }
   }
 
-  & li.is-active {
-    color: #055ca9;
-    cursor: pointer;
-      
+  & li:first-child::after,
+  & li:last-child::before {
+      display: none;
+  }
+
+  & li.is-active::before {
+    background: #f4f4f4;
+    border: 1px solid #ececec;
+  }
+
+  & li.is-active ~ li {
+    color: #999;
+
+    &::after {
+      background: #f4f4f4;
+      border: 1px solid #ececec;
+    }
+  
+    &::before {
+      background: #f4f4f4;
+      border: 1px solid #ececec;
+    }
     .step-slider__number {
-        background: #055ca9;
-        border-color: #055ca9;
-        color: #fff;
-      }
+      background: #f4f4f4;
+      border-color: #ececec;
+      color: #999;
+    }
   }
 
   &__number {
@@ -339,8 +373,11 @@ padding: 0 15px;
     border-radius: 50%;
     padding: 5px 10px;
     margin-bottom: 5px;
-    background: #f4f4f4;
-    border: 1px solid #ececec;
+    background: #055ca9;
+    border: 1px solid #055ca9;
+    color: #fff;
     transition: background 100ms;
+    z-index: 3;
+    position: relative;
   }
 }
