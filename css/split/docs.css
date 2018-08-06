@@ -280,6 +280,17 @@ background-color: #ccc;
 
 /* step slider */
 
+.slider-line, .step-slider li::after, .step-slider li::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  height: 6px;
+  width: 50%;
+  border-color: #055ca9;
+  background: #055ca9;
+  z-index: 0;
+}
+
 .step-slider {
   width: 100%;
   list-style: none;
@@ -293,21 +304,10 @@ background-color: #ccc;
   -webkit-box-direction: normal;
       -ms-flex-direction: row nowrap;
           flex-direction: row nowrap;
-  color: #999;
+  color: #055ca9;
   font-size: 11px;
-  position: relative
-}
-
-.step-slider::after {
-content: '';
-position: absolute;
-top: 10px;
-left: 10%;
-right: 10%;
-height: 6px;
-background: #f4f4f4;
-border: 1px solid #ececec;
-z-index: 0;
+  position: relative;
+  overflow: hidden
 }
 
 .step-slider li {
@@ -315,17 +315,47 @@ z-index: 0;
     -ms-flex: 1;
         flex: 1;
 z-index: 2;
+position: relative;
 }
 
-.step-slider li.is-active {
-color: #055ca9;
-cursor: pointer;
+.step-slider li::after {
+left: 0;
+right: -50%;
+width: 50%;
 }
 
-.step-slider li.is-active .step-slider__number {
-background: #055ca9;
-border-color: #055ca9;
-color: #fff;
+.step-slider li::before {
+left: 50%;
+right: 0;
+}
+
+.step-slider li:first-child::after, .step-slider li:last-child::before {
+display: none;
+}
+
+.step-slider li.is-active::before {
+background: #f4f4f4;
+border: 1px solid #ececec;
+}
+
+.step-slider li.is-active ~ li {
+color: #999;
+}
+
+.step-slider li.is-active ~ li .step-slider__number {
+background: #f4f4f4;
+border-color: #ececec;
+color: #999;
+}
+
+.step-slider li.is-active ~ li::after {
+background: #f4f4f4;
+border: 1px solid #ececec;
+}
+
+.step-slider li.is-active ~ li::before {
+background: #f4f4f4;
+border: 1px solid #ececec;
 }
 
 .step-slider__number {
@@ -333,7 +363,10 @@ display: inline-block;
 border-radius: 50%;
 padding: 5px 10px;
 margin-bottom: 5px;
-background: #f4f4f4;
-border: 1px solid #ececec;
+background: #055ca9;
+border: 1px solid #055ca9;
+color: #fff;
 transition: background 100ms;
+z-index: 3;
+position: relative;
 }
